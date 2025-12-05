@@ -3292,6 +3292,7 @@ int id group_divider 0x7f0800cc
 int id grouping 0x7f0800cd
 int id groups 0x7f0800ce
 int id header_title 0x7f0800cf
+int id helloTextView 0x7f0801fa
 int id hide_ime_id 0x7f0800d0
 int id hideable 0x7f0800d1
 int id home 0x7f0800d2
@@ -3327,6 +3328,7 @@ int id list_item 0x7f0800ef
 int id loginButton 0x7f0801f2
 int id loginLink 0x7f0801f3
 int id loginTitle 0x7f0801f4
+int id logoutButton 0x7f0801fb
 int id m3_side_sheet 0x7f0800f0
 int id marquee 0x7f0800f1
 int id masked 0x7f0800f2

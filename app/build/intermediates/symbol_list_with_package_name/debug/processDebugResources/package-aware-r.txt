@@ -3293,6 +3293,7 @@ id group_divider
 id grouping
 id groups
 id header_title
+id helloTextView
 id hide_ime_id
 id hideable
 id home
@@ -3328,6 +3329,7 @@ id list_item
 id loginButton
 id loginLink
 id loginTitle
+id logoutButton
 id m3_side_sheet
 id marquee
 id masked

@@ -2,10 +2,9 @@ package com.example.tap2tell
 
 import android.content.Intent
 import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
-import androidx.appcompat.app.AppCompatActivityimport android.os.Bundle
 import android.widget.Button
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -24,8 +23,7 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, LoginActivity::class.java)
 
             // These flags are important for a good user experience
-            // FLAG_ACTIVITY_CLEAR_TOP: Clears the activity stack on top of the new activity.
-            // FLAG_ACTIVITY_NEW_TASK: Creates the activity in a new task.
+            // to clear the back stack and prevent the user from returning to the main screen.
             intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
 
             // Start the LoginActivity

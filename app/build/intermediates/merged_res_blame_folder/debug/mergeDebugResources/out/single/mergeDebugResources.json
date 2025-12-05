@@ -20,12 +20,16 @@
         "source": "/home/najae/.gradle/daemon/9.0-milestone-1/com.example.tap2tell.app-main-33:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.tap2tell.app-debug-31:/layout_activity_login.xml.flat",
-        "source": "com.example.tap2tell.app-main-33:/layout/activity_login.xml"
+        "merged": "/home/najae/.gradle/daemon/9.0-milestone-1/com.example.tap2tell.app-debug-31:/layout_activity_login.xml.flat",
+        "source": "/home/najae/.gradle/daemon/9.0-milestone-1/com.example.tap2tell.app-main-33:/layout/activity_login.xml"
     },
     {
         "merged": "/home/najae/.gradle/daemon/9.0-milestone-1/com.example.tap2tell.app-debug-31:/layout_activity_main.xml.flat",
         "source": "/home/najae/.gradle/daemon/9.0-milestone-1/com.example.tap2tell.app-main-33:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/najae/.gradle/daemon/9.0-milestone-1/com.example.tap2tell.app-debug-31:/layout_activity_signup.xml.flat",
+        "source": "/home/najae/.gradle/daemon/9.0-milestone-1/com.example.tap2tell.app-main-33:/layout/activity_signup.xml"
     },
     {
         "merged": "/home/najae/.gradle/daemon/9.0-milestone-1/com.example.tap2tell.app-debug-31:/mipmap-hdpi_ic_launcher.webp.flat",
@@ -34,10 +38,6 @@
     {
         "merged": "/home/najae/.gradle/daemon/9.0-milestone-1/com.example.tap2tell.app-debug-31:/drawable_ic_launcher_foreground.xml.flat",
         "source": "/home/najae/.gradle/daemon/9.0-milestone-1/com.example.tap2tell.app-main-33:/drawable/ic_launcher_foreground.xml"
-    },
-    {
-        "merged": "com.example.tap2tell.app-debug-31:/layout_activity_signup.xml.flat",
-        "source": "com.example.tap2tell.app-main-33:/layout/activity_signup.xml"
     },
     {
         "merged": "/home/najae/.gradle/daemon/9.0-milestone-1/com.example.tap2tell.app-debug-31:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
@@ -54,6 +54,10 @@
     {
         "merged": "/home/najae/.gradle/daemon/9.0-milestone-1/com.example.tap2tell.app-debug-31:/xml_data_extraction_rules.xml.flat",
         "source": "/home/najae/.gradle/daemon/9.0-milestone-1/com.example.tap2tell.app-main-33:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.tap2tell.app-debug-31:/layout_activity_main.xml.flat",
+        "source": "com.example.tap2tell.app-main-33:/layout/activity_main.xml"
     },
     {
         "merged": "/home/najae/.gradle/daemon/9.0-milestone-1/com.example.tap2tell.app-debug-31:/mipmap-xhdpi_ic_launcher_round.webp.flat",

@@ -11,9 +11,11 @@ color white
 drawable ic_launcher_foreground
 id emailEditText
 id emailLayout
+id helloTextView
 id loginButton
 id loginLink
 id loginTitle
+id logoutButton
 id passwordEditText
 id passwordLayout
 id signupButton
