@@ -3257,6 +3257,8 @@ id edge
 id edit_query
 id edit_text_id
 id elastic
+id emailEditText
+id emailLayout
 id embed
 id end
 id endToStart
@@ -3323,6 +3325,9 @@ id line3
 id linear
 id listMode
 id list_item
+id loginButton
+id loginLink
+id loginTitle
 id m3_side_sheet
 id marquee
 id masked
@@ -3427,6 +3432,8 @@ id parent
 id parentPanel
 id parentRelative
 id parent_matrix
+id passwordEditText
+id passwordLayout
 id password_toggle
 id path
 id pathRelative
@@ -3478,6 +3485,9 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
+id signupButton
+id signupLink
+id signupTitle
 id sin
 id skipCollapsed
 id skipped
@@ -3693,7 +3703,9 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_login
 layout activity_main
+layout activity_signup
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

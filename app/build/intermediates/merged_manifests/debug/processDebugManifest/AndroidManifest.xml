@@ -28,13 +28,20 @@
         android:testOnly="true"
         android:theme="@style/Theme.Tap2Tell" >
         <activity
-            android:name="com.example.tap2tell.MainActivity"
+            android:name="com.example.tap2tell.LoginActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.tap2tell.SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.tap2tell.MainActivity"
+            android:exported="true" >
         </activity>
 
         <provider
