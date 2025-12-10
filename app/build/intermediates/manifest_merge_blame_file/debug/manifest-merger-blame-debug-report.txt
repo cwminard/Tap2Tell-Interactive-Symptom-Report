@@ -1,0 +1,510 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.tap2tell"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:63:5-67
+11-->C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:63:22-64
+12
+13    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+14    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.firebase:firebase-database:20.3.0] C:\Users\fortu\caches\transforms-3\8ee02e975cad74e108861bce6402d81b\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:22:5-79
+15-->[com.google.firebase:firebase-database:20.3.0] C:\Users\fortu\caches\transforms-3\8ee02e975cad74e108861bce6402d81b\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:22:22-76
+16    <uses-permission android:name="android.permission.WAKE_LOCK" />
+16-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\fortu\caches\transforms-3\79cdcb40a39d7e1c402283af9cf001eb\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:24:5-68
+16-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\fortu\caches\transforms-3\79cdcb40a39d7e1c402283af9cf001eb\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:24:22-65
+17    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+17-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\fortu\caches\transforms-3\79cdcb40a39d7e1c402283af9cf001eb\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:25:5-79
+17-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\fortu\caches\transforms-3\79cdcb40a39d7e1c402283af9cf001eb\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:25:22-76
+18    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+18-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\fortu\caches\transforms-3\79cdcb40a39d7e1c402283af9cf001eb\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:26:5-88
+18-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\fortu\caches\transforms-3\79cdcb40a39d7e1c402283af9cf001eb\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:26:22-85
+19    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+19-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\fortu\caches\transforms-3\79cdcb40a39d7e1c402283af9cf001eb\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:27:5-82
+19-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\fortu\caches\transforms-3\79cdcb40a39d7e1c402283af9cf001eb\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:27:22-79
+20    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+20-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\fortu\caches\transforms-3\0497a67f99ac56fb0e79703eb4bbbcae\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:26:5-110
+20-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\fortu\caches\transforms-3\0497a67f99ac56fb0e79703eb4bbbcae\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:26:22-107
+21
+22    <permission
+22-->[androidx.core:core:1.12.0] C:\Users\fortu\caches\transforms-3\65c34b469c8b6c887310c558ac7d04ef\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+23        android:name="com.example.tap2tell.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+23-->[androidx.core:core:1.12.0] C:\Users\fortu\caches\transforms-3\65c34b469c8b6c887310c558ac7d04ef\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+24        android:protectionLevel="signature" />
+24-->[androidx.core:core:1.12.0] C:\Users\fortu\caches\transforms-3\65c34b469c8b6c887310c558ac7d04ef\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+25
+26    <uses-permission android:name="com.example.tap2tell.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+26-->[androidx.core:core:1.12.0] C:\Users\fortu\caches\transforms-3\65c34b469c8b6c887310c558ac7d04ef\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+26-->[androidx.core:core:1.12.0] C:\Users\fortu\caches\transforms-3\65c34b469c8b6c887310c558ac7d04ef\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+27
+28    <application
+28-->C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:5:5-62:19
+29        android:allowBackup="true"
+29-->C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:6:9-35
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.12.0] C:\Users\fortu\caches\transforms-3\65c34b469c8b6c887310c558ac7d04ef\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+31        android:dataExtractionRules="@xml/data_extraction_rules"
+31-->C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:7:9-65
+32        android:debuggable="true"
+33        android:extractNativeLibs="false"
+34        android:fullBackupContent="@xml/backup_rules"
+34-->C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:8:9-54
+35        android:icon="@mipmap/ic_launcher"
+35-->C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:9:9-43
+36        android:label="@string/app_name"
+36-->C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:10:9-41
+37        android:roundIcon="@mipmap/ic_launcher_round"
+37-->C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:11:9-54
+38        android:supportsRtl="true"
+38-->C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:12:9-35
+39        android:testOnly="true"
+40        android:theme="@style/Theme.Tap2Tell" >
+40-->C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:13:9-46
+41
+42        <!-- LOGIN (Launcher) -->
+43        <activity
+43-->C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:17:9-24:20
+44            android:name="com.example.tap2tell.LoginActivity"
+44-->C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:18:13-42
+45            android:exported="true" >
+45-->C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:19:13-36
+46            <intent-filter>
+46-->C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:20:13-23:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:21:17-68
+47-->C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:21:25-66
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:22:17-76
+49-->C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:22:27-74
+50            </intent-filter>
+51        </activity>
+52
+53        <!-- DASHBOARD -->
+54        <activity
+54-->C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:27:9-29:40
+55            android:name="com.example.tap2tell.DashboardActivity"
+55-->C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:28:13-46
+56            android:exported="false" />
+56-->C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:29:13-37
+57
+58        <!-- SIGNUP -->
+59        <activity
+59-->C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:32:9-34:40
+60            android:name="com.example.tap2tell.SignUpActivity"
+60-->C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:33:13-43
+61            android:exported="false" />
+61-->C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:34:13-37
+62
+63        <!-- LOGOUT SCREEN -->
+64        <activity
+64-->C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:37:9-39:39
+65            android:name="com.example.tap2tell.MainActivity"
+65-->C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:38:13-41
+66            android:exported="true" />
+66-->C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:39:13-36
+67
+68        <!-- CHAT SCREEN -->
+69        <activity
+69-->C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:42:9-44:40
+70            android:name="com.example.tap2tell.chat"
+70-->C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:43:13-33
+71            android:exported="false" />
+71-->C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:44:13-37
+72
+73        <!-- SYMPTOMS SCREEN -->
+74        <activity
+74-->C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:47:9-49:40
+75            android:name="com.example.tap2tell.Symptoms"
+75-->C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:48:13-37
+76            android:exported="false" />
+76-->C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:49:13-37
+77        <activity android:name="com.example.tap2tell.AdminApprovalActivity" />
+77-->C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:50:9-59
+77-->C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:50:19-56
+78        <activity android:name="com.example.tap2tell.providerinfo.userdetails" />
+78-->C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:51:9-82
+78-->C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:51:19-79
+79        <activity android:name="com.example.tap2tell.providerinfo.Providersignin" />
+79-->C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:52:9-65
+79-->C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:52:19-62
+80        <activity android:name="com.example.tap2tell.providerinfo.providerdashboard" />
+80-->C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:53:9-88
+80-->C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:53:19-85
+81        <activity android:name="com.example.tap2tell.providerinfo.providerchat" />
+81-->C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:54:9-63
+81-->C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:54:19-60
+82        <activity android:name="com.example.tap2tell.Aiactivity" />
+82-->C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:55:9-48
+82-->C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:55:19-45
+83
+84        <service
+84-->[com.google.firebase:firebase-crashlytics-ktx:18.6.0] C:\Users\fortu\caches\transforms-3\2a8506b8fb66444c70c100a55fef210d\transformed\jetified-firebase-crashlytics-ktx-18.6.0\AndroidManifest.xml:21:9-27:19
+85            android:name="com.google.firebase.components.ComponentDiscoveryService"
+85-->[com.google.firebase:firebase-crashlytics-ktx:18.6.0] C:\Users\fortu\caches\transforms-3\2a8506b8fb66444c70c100a55fef210d\transformed\jetified-firebase-crashlytics-ktx-18.6.0\AndroidManifest.xml:22:13-84
+86            android:directBootAware="true"
+86-->[com.google.firebase:firebase-common:20.4.2] C:\Users\fortu\caches\transforms-3\322e7911774891daf99882ff68ef01a5\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:32:13-43
+87            android:exported="false" >
+87-->[com.google.firebase:firebase-crashlytics-ktx:18.6.0] C:\Users\fortu\caches\transforms-3\2a8506b8fb66444c70c100a55fef210d\transformed\jetified-firebase-crashlytics-ktx-18.6.0\AndroidManifest.xml:23:13-37
+88            <meta-data
+88-->[com.google.firebase:firebase-crashlytics-ktx:18.6.0] C:\Users\fortu\caches\transforms-3\2a8506b8fb66444c70c100a55fef210d\transformed\jetified-firebase-crashlytics-ktx-18.6.0\AndroidManifest.xml:24:13-26:85
+89                android:name="com.google.firebase.components:com.google.firebase.crashlytics.ktx.FirebaseCrashlyticsKtxRegistrar"
+89-->[com.google.firebase:firebase-crashlytics-ktx:18.6.0] C:\Users\fortu\caches\transforms-3\2a8506b8fb66444c70c100a55fef210d\transformed\jetified-firebase-crashlytics-ktx-18.6.0\AndroidManifest.xml:25:17-130
+90                android:value="com.google.firebase.components.ComponentRegistrar" />
+90-->[com.google.firebase:firebase-crashlytics-ktx:18.6.0] C:\Users\fortu\caches\transforms-3\2a8506b8fb66444c70c100a55fef210d\transformed\jetified-firebase-crashlytics-ktx-18.6.0\AndroidManifest.xml:26:17-82
+91            <meta-data
+91-->[com.google.firebase:firebase-database-ktx:20.3.0] C:\Users\fortu\caches\transforms-3\a6535b1bd8fa85f8aebba59e8f409297\transformed\jetified-firebase-database-ktx-20.3.0\AndroidManifest.xml:12:13-14:85
+92                android:name="com.google.firebase.components:com.google.firebase.database.ktx.FirebaseDatabaseLegacyRegistrar"
+92-->[com.google.firebase:firebase-database-ktx:20.3.0] C:\Users\fortu\caches\transforms-3\a6535b1bd8fa85f8aebba59e8f409297\transformed\jetified-firebase-database-ktx-20.3.0\AndroidManifest.xml:13:17-127
+93                android:value="com.google.firebase.components.ComponentRegistrar" />
+93-->[com.google.firebase:firebase-database-ktx:20.3.0] C:\Users\fortu\caches\transforms-3\a6535b1bd8fa85f8aebba59e8f409297\transformed\jetified-firebase-database-ktx-20.3.0\AndroidManifest.xml:14:17-82
+94            <meta-data
+94-->[com.google.firebase:firebase-analytics-ktx:21.5.0] C:\Users\fortu\caches\transforms-3\dd5deb464e535591216e2be992272b01\transformed\jetified-firebase-analytics-ktx-21.5.0\AndroidManifest.xml:11:13-13:85
+95                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsLegacyRegistrar"
+95-->[com.google.firebase:firebase-analytics-ktx:21.5.0] C:\Users\fortu\caches\transforms-3\dd5deb464e535591216e2be992272b01\transformed\jetified-firebase-analytics-ktx-21.5.0\AndroidManifest.xml:12:17-129
+96                android:value="com.google.firebase.components.ComponentRegistrar" />
+96-->[com.google.firebase:firebase-analytics-ktx:21.5.0] C:\Users\fortu\caches\transforms-3\dd5deb464e535591216e2be992272b01\transformed\jetified-firebase-analytics-ktx-21.5.0\AndroidManifest.xml:13:17-82
+97            <meta-data
+97-->[com.google.firebase:firebase-auth-ktx:22.3.0] C:\Users\fortu\caches\transforms-3\4c71732b25f48e13c642b86dc5883d2a\transformed\jetified-firebase-auth-ktx-22.3.0\AndroidManifest.xml:11:13-13:85
+98                android:name="com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthLegacyRegistrar"
+98-->[com.google.firebase:firebase-auth-ktx:22.3.0] C:\Users\fortu\caches\transforms-3\4c71732b25f48e13c642b86dc5883d2a\transformed\jetified-firebase-auth-ktx-22.3.0\AndroidManifest.xml:12:17-119
+99                android:value="com.google.firebase.components.ComponentRegistrar" />
+99-->[com.google.firebase:firebase-auth-ktx:22.3.0] C:\Users\fortu\caches\transforms-3\4c71732b25f48e13c642b86dc5883d2a\transformed\jetified-firebase-auth-ktx-22.3.0\AndroidManifest.xml:13:17-82
+100            <meta-data
+100-->[com.google.firebase:firebase-crashlytics:18.6.0] C:\Users\fortu\caches\transforms-3\63725a07ea33aea88d62dfe44684b325\transformed\jetified-firebase-crashlytics-18.6.0\AndroidManifest.xml:15:13-17:85
+101                android:name="com.google.firebase.components:com.google.firebase.crashlytics.FirebaseCrashlyticsKtxRegistrar"
+101-->[com.google.firebase:firebase-crashlytics:18.6.0] C:\Users\fortu\caches\transforms-3\63725a07ea33aea88d62dfe44684b325\transformed\jetified-firebase-crashlytics-18.6.0\AndroidManifest.xml:16:17-126
+102                android:value="com.google.firebase.components.ComponentRegistrar" />
+102-->[com.google.firebase:firebase-crashlytics:18.6.0] C:\Users\fortu\caches\transforms-3\63725a07ea33aea88d62dfe44684b325\transformed\jetified-firebase-crashlytics-18.6.0\AndroidManifest.xml:17:17-82
+103            <meta-data
+103-->[com.google.firebase:firebase-crashlytics:18.6.0] C:\Users\fortu\caches\transforms-3\63725a07ea33aea88d62dfe44684b325\transformed\jetified-firebase-crashlytics-18.6.0\AndroidManifest.xml:18:13-20:85
+104                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+104-->[com.google.firebase:firebase-crashlytics:18.6.0] C:\Users\fortu\caches\transforms-3\63725a07ea33aea88d62dfe44684b325\transformed\jetified-firebase-crashlytics-18.6.0\AndroidManifest.xml:19:17-115
+105                android:value="com.google.firebase.components.ComponentRegistrar" />
+105-->[com.google.firebase:firebase-crashlytics:18.6.0] C:\Users\fortu\caches\transforms-3\63725a07ea33aea88d62dfe44684b325\transformed\jetified-firebase-crashlytics-18.6.0\AndroidManifest.xml:20:17-82
+106            <meta-data
+106-->[com.google.firebase:firebase-database:20.3.0] C:\Users\fortu\caches\transforms-3\8ee02e975cad74e108861bce6402d81b\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:29:13-31:85
+107                android:name="com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar"
+107-->[com.google.firebase:firebase-database:20.3.0] C:\Users\fortu\caches\transforms-3\8ee02e975cad74e108861bce6402d81b\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:30:17-120
+108                android:value="com.google.firebase.components.ComponentRegistrar" />
+108-->[com.google.firebase:firebase-database:20.3.0] C:\Users\fortu\caches\transforms-3\8ee02e975cad74e108861bce6402d81b\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:31:17-82
+109            <meta-data
+109-->[com.google.firebase:firebase-database:20.3.0] C:\Users\fortu\caches\transforms-3\8ee02e975cad74e108861bce6402d81b\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:32:13-34:85
+110                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+110-->[com.google.firebase:firebase-database:20.3.0] C:\Users\fortu\caches\transforms-3\8ee02e975cad74e108861bce6402d81b\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:33:17-109
+111                android:value="com.google.firebase.components.ComponentRegistrar" />
+111-->[com.google.firebase:firebase-database:20.3.0] C:\Users\fortu\caches\transforms-3\8ee02e975cad74e108861bce6402d81b\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:34:17-82
+112            <meta-data
+112-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:69:13-71:85
+113                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+113-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:70:17-109
+114                android:value="com.google.firebase.components.ComponentRegistrar" />
+114-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:71:17-82
+115            <meta-data
+115-->[com.google.firebase:firebase-sessions:1.2.0] C:\Users\fortu\caches\transforms-3\aeb19ee1e8da160a7118c008487ca5cc\transformed\jetified-firebase-sessions-1.2.0\AndroidManifest.xml:29:13-31:85
+116                android:name="com.google.firebase.components:com.google.firebase.sessions.FirebaseSessionsRegistrar"
+116-->[com.google.firebase:firebase-sessions:1.2.0] C:\Users\fortu\caches\transforms-3\aeb19ee1e8da160a7118c008487ca5cc\transformed\jetified-firebase-sessions-1.2.0\AndroidManifest.xml:30:17-117
+117                android:value="com.google.firebase.components.ComponentRegistrar" />
+117-->[com.google.firebase:firebase-sessions:1.2.0] C:\Users\fortu\caches\transforms-3\aeb19ee1e8da160a7118c008487ca5cc\transformed\jetified-firebase-sessions-1.2.0\AndroidManifest.xml:31:17-82
+118            <meta-data
+118-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\fortu\caches\transforms-3\79cdcb40a39d7e1c402283af9cf001eb\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:37:13-39:85
+119                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+119-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\fortu\caches\transforms-3\79cdcb40a39d7e1c402283af9cf001eb\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:38:17-139
+120                android:value="com.google.firebase.components.ComponentRegistrar" />
+120-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\fortu\caches\transforms-3\79cdcb40a39d7e1c402283af9cf001eb\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:39:17-82
+121            <meta-data
+121-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\fortu\caches\transforms-3\f408a8b3274e781cd23640ddea2bb53d\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:15:13-17:85
+122                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+122-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\fortu\caches\transforms-3\f408a8b3274e781cd23640ddea2bb53d\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:16:17-130
+123                android:value="com.google.firebase.components.ComponentRegistrar" />
+123-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\fortu\caches\transforms-3\f408a8b3274e781cd23640ddea2bb53d\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:17:17-82
+124            <meta-data
+124-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\fortu\caches\transforms-3\f408a8b3274e781cd23640ddea2bb53d\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:18:13-20:85
+125                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+125-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\fortu\caches\transforms-3\f408a8b3274e781cd23640ddea2bb53d\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:19:17-127
+126                android:value="com.google.firebase.components.ComponentRegistrar" />
+126-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\fortu\caches\transforms-3\f408a8b3274e781cd23640ddea2bb53d\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:20:17-82
+127            <meta-data
+127-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\fortu\caches\transforms-3\d857893510eb3ce1d1e545777fe121a1\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:12:13-14:85
+128                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+128-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\fortu\caches\transforms-3\d857893510eb3ce1d1e545777fe121a1\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:13:17-116
+129                android:value="com.google.firebase.components.ComponentRegistrar" />
+129-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\fortu\caches\transforms-3\d857893510eb3ce1d1e545777fe121a1\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:14:17-82
+130            <meta-data
+130-->[com.google.firebase:firebase-common:20.4.2] C:\Users\fortu\caches\transforms-3\322e7911774891daf99882ff68ef01a5\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:35:13-37:85
+131                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+131-->[com.google.firebase:firebase-common:20.4.2] C:\Users\fortu\caches\transforms-3\322e7911774891daf99882ff68ef01a5\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:36:17-109
+132                android:value="com.google.firebase.components.ComponentRegistrar" />
+132-->[com.google.firebase:firebase-common:20.4.2] C:\Users\fortu\caches\transforms-3\322e7911774891daf99882ff68ef01a5\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:37:17-82
+133            <meta-data
+133-->[com.google.firebase:firebase-datatransport:18.1.8] C:\Users\fortu\caches\transforms-3\b3fdd3acfd01a511e24ceaa400180773\transformed\jetified-firebase-datatransport-18.1.8\AndroidManifest.xml:27:13-29:85
+134                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+134-->[com.google.firebase:firebase-datatransport:18.1.8] C:\Users\fortu\caches\transforms-3\b3fdd3acfd01a511e24ceaa400180773\transformed\jetified-firebase-datatransport-18.1.8\AndroidManifest.xml:28:17-115
+135                android:value="com.google.firebase.components.ComponentRegistrar" />
+135-->[com.google.firebase:firebase-datatransport:18.1.8] C:\Users\fortu\caches\transforms-3\b3fdd3acfd01a511e24ceaa400180773\transformed\jetified-firebase-datatransport-18.1.8\AndroidManifest.xml:29:17-82
+136        </service>
+137        <service
+137-->[androidx.room:room-runtime:2.6.1] C:\Users\fortu\caches\transforms-3\14802347e0265a32ac9087c9d6faf60e\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+138            android:name="androidx.room.MultiInstanceInvalidationService"
+138-->[androidx.room:room-runtime:2.6.1] C:\Users\fortu\caches\transforms-3\14802347e0265a32ac9087c9d6faf60e\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+139            android:directBootAware="true"
+139-->[androidx.room:room-runtime:2.6.1] C:\Users\fortu\caches\transforms-3\14802347e0265a32ac9087c9d6faf60e\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+140            android:exported="false" />
+140-->[androidx.room:room-runtime:2.6.1] C:\Users\fortu\caches\transforms-3\14802347e0265a32ac9087c9d6faf60e\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+141
+142        <activity
+142-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:29:9-46:20
+143            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+143-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:30:13-80
+144            android:excludeFromRecents="true"
+144-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:31:13-46
+145            android:exported="true"
+145-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:32:13-36
+146            android:launchMode="singleTask"
+146-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:33:13-44
+147            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+147-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:34:13-72
+148            <intent-filter>
+148-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:35:13-45:29
+149                <action android:name="android.intent.action.VIEW" />
+149-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:36:17-69
+149-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:36:25-66
+150
+151                <category android:name="android.intent.category.DEFAULT" />
+151-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:38:17-76
+151-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:38:27-73
+152                <category android:name="android.intent.category.BROWSABLE" />
+152-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:39:17-78
+152-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:39:27-75
+153
+154                <data
+154-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:41:17-44:51
+155                    android:host="firebase.auth"
+155-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:42:21-49
+156                    android:path="/"
+156-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:43:21-37
+157                    android:scheme="genericidp" />
+157-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:44:21-48
+158            </intent-filter>
+159        </activity>
+160        <activity
+160-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:47:9-64:20
+161            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+161-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:48:13-79
+162            android:excludeFromRecents="true"
+162-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:49:13-46
+163            android:exported="true"
+163-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:50:13-36
+164            android:launchMode="singleTask"
+164-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:51:13-44
+165            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+165-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:52:13-72
+166            <intent-filter>
+166-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:53:13-63:29
+167                <action android:name="android.intent.action.VIEW" />
+167-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:36:17-69
+167-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:36:25-66
+168
+169                <category android:name="android.intent.category.DEFAULT" />
+169-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:38:17-76
+169-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:38:27-73
+170                <category android:name="android.intent.category.BROWSABLE" />
+170-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:39:17-78
+170-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:39:27-75
+171
+172                <data
+172-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:41:17-44:51
+173                    android:host="firebase.auth"
+173-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:42:21-49
+174                    android:path="/"
+174-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:43:21-37
+175                    android:scheme="recaptcha" />
+175-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:44:21-48
+176            </intent-filter>
+177        </activity>
+178
+179        <service
+179-->[com.google.firebase:firebase-sessions:1.2.0] C:\Users\fortu\caches\transforms-3\aeb19ee1e8da160a7118c008487ca5cc\transformed\jetified-firebase-sessions-1.2.0\AndroidManifest.xml:22:9-25:40
+180            android:name="com.google.firebase.sessions.SessionLifecycleService"
+180-->[com.google.firebase:firebase-sessions:1.2.0] C:\Users\fortu\caches\transforms-3\aeb19ee1e8da160a7118c008487ca5cc\transformed\jetified-firebase-sessions-1.2.0\AndroidManifest.xml:23:13-80
+181            android:enabled="true"
+181-->[com.google.firebase:firebase-sessions:1.2.0] C:\Users\fortu\caches\transforms-3\aeb19ee1e8da160a7118c008487ca5cc\transformed\jetified-firebase-sessions-1.2.0\AndroidManifest.xml:24:13-35
+182            android:exported="false" />
+182-->[com.google.firebase:firebase-sessions:1.2.0] C:\Users\fortu\caches\transforms-3\aeb19ee1e8da160a7118c008487ca5cc\transformed\jetified-firebase-sessions-1.2.0\AndroidManifest.xml:25:13-37
+183
+184        <property
+184-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\fortu\caches\transforms-3\79cdcb40a39d7e1c402283af9cf001eb\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:30:9-32:61
+185            android:name="android.adservices.AD_SERVICES_CONFIG"
+185-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\fortu\caches\transforms-3\79cdcb40a39d7e1c402283af9cf001eb\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:31:13-65
+186            android:resource="@xml/ga_ad_services_config" />
+186-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\fortu\caches\transforms-3\79cdcb40a39d7e1c402283af9cf001eb\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:32:13-58
+187
+188        <provider
+188-->[com.google.firebase:firebase-common:20.4.2] C:\Users\fortu\caches\transforms-3\322e7911774891daf99882ff68ef01a5\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:23:9-28:39
+189            android:name="com.google.firebase.provider.FirebaseInitProvider"
+189-->[com.google.firebase:firebase-common:20.4.2] C:\Users\fortu\caches\transforms-3\322e7911774891daf99882ff68ef01a5\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:24:13-77
+190            android:authorities="com.example.tap2tell.firebaseinitprovider"
+190-->[com.google.firebase:firebase-common:20.4.2] C:\Users\fortu\caches\transforms-3\322e7911774891daf99882ff68ef01a5\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:25:13-72
+191            android:directBootAware="true"
+191-->[com.google.firebase:firebase-common:20.4.2] C:\Users\fortu\caches\transforms-3\322e7911774891daf99882ff68ef01a5\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:26:13-43
+192            android:exported="false"
+192-->[com.google.firebase:firebase-common:20.4.2] C:\Users\fortu\caches\transforms-3\322e7911774891daf99882ff68ef01a5\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:27:13-37
+193            android:initOrder="100" />
+193-->[com.google.firebase:firebase-common:20.4.2] C:\Users\fortu\caches\transforms-3\322e7911774891daf99882ff68ef01a5\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:28:13-36
+194
+195        <receiver
+195-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\fortu\caches\transforms-3\0497a67f99ac56fb0e79703eb4bbbcae\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:29:9-33:20
+196            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+196-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\fortu\caches\transforms-3\0497a67f99ac56fb0e79703eb4bbbcae\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:30:13-85
+197            android:enabled="true"
+197-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\fortu\caches\transforms-3\0497a67f99ac56fb0e79703eb4bbbcae\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:31:13-35
+198            android:exported="false" >
+198-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\fortu\caches\transforms-3\0497a67f99ac56fb0e79703eb4bbbcae\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:32:13-37
+199        </receiver>
+200
+201        <service
+201-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\fortu\caches\transforms-3\0497a67f99ac56fb0e79703eb4bbbcae\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:35:9-38:40
+202            android:name="com.google.android.gms.measurement.AppMeasurementService"
+202-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\fortu\caches\transforms-3\0497a67f99ac56fb0e79703eb4bbbcae\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:36:13-84
+203            android:enabled="true"
+203-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\fortu\caches\transforms-3\0497a67f99ac56fb0e79703eb4bbbcae\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:37:13-35
+204            android:exported="false" />
+204-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\fortu\caches\transforms-3\0497a67f99ac56fb0e79703eb4bbbcae\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:38:13-37
+205        <service
+205-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\fortu\caches\transforms-3\0497a67f99ac56fb0e79703eb4bbbcae\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:39:9-43:72
+206            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+206-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\fortu\caches\transforms-3\0497a67f99ac56fb0e79703eb4bbbcae\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:40:13-87
+207            android:enabled="true"
+207-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\fortu\caches\transforms-3\0497a67f99ac56fb0e79703eb4bbbcae\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:41:13-35
+208            android:exported="false"
+208-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\fortu\caches\transforms-3\0497a67f99ac56fb0e79703eb4bbbcae\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:42:13-37
+209            android:permission="android.permission.BIND_JOB_SERVICE" />
+209-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\fortu\caches\transforms-3\0497a67f99ac56fb0e79703eb4bbbcae\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:43:13-69
+210
+211        <uses-library
+211-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\fortu\caches\transforms-3\693aca8fee0d62c0589bb5215552a0a2\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:23:9-25:40
+212            android:name="android.ext.adservices"
+212-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\fortu\caches\transforms-3\693aca8fee0d62c0589bb5215552a0a2\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:24:13-50
+213            android:required="false" />
+213-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\fortu\caches\transforms-3\693aca8fee0d62c0589bb5215552a0a2\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:25:13-37
+214
+215        <activity
+215-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\fortu\caches\transforms-3\0818b56498c05772ce60afecdac91b6a\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+216            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+216-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\fortu\caches\transforms-3\0818b56498c05772ce60afecdac91b6a\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+217            android:exported="false"
+217-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\fortu\caches\transforms-3\0818b56498c05772ce60afecdac91b6a\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+218            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+218-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\fortu\caches\transforms-3\0818b56498c05772ce60afecdac91b6a\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+219
+220        <meta-data
+220-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\fortu\caches\transforms-3\6c1332faead9c2cf3ed544ba3be0bf62\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+221            android:name="com.google.android.gms.version"
+221-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\fortu\caches\transforms-3\6c1332faead9c2cf3ed544ba3be0bf62\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+222            android:value="@integer/google_play_services_version" />
+222-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\fortu\caches\transforms-3\6c1332faead9c2cf3ed544ba3be0bf62\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+223
+224        <provider
+224-->[androidx.emoji2:emoji2:1.2.0] C:\Users\fortu\caches\transforms-3\f58ff2112c5f1664b70001ad2e12a684\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+225            android:name="androidx.startup.InitializationProvider"
+225-->[androidx.emoji2:emoji2:1.2.0] C:\Users\fortu\caches\transforms-3\f58ff2112c5f1664b70001ad2e12a684\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+226            android:authorities="com.example.tap2tell.androidx-startup"
+226-->[androidx.emoji2:emoji2:1.2.0] C:\Users\fortu\caches\transforms-3\f58ff2112c5f1664b70001ad2e12a684\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+227            android:exported="false" >
+227-->[androidx.emoji2:emoji2:1.2.0] C:\Users\fortu\caches\transforms-3\f58ff2112c5f1664b70001ad2e12a684\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+228            <meta-data
+228-->[androidx.emoji2:emoji2:1.2.0] C:\Users\fortu\caches\transforms-3\f58ff2112c5f1664b70001ad2e12a684\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+229                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+229-->[androidx.emoji2:emoji2:1.2.0] C:\Users\fortu\caches\transforms-3\f58ff2112c5f1664b70001ad2e12a684\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+230                android:value="androidx.startup" />
+230-->[androidx.emoji2:emoji2:1.2.0] C:\Users\fortu\caches\transforms-3\f58ff2112c5f1664b70001ad2e12a684\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+231            <meta-data
+231-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\fortu\caches\transforms-3\94ec4a03db3e75ed0c8e544863d3a455\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+232                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+232-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\fortu\caches\transforms-3\94ec4a03db3e75ed0c8e544863d3a455\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+233                android:value="androidx.startup" />
+233-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\fortu\caches\transforms-3\94ec4a03db3e75ed0c8e544863d3a455\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+234            <meta-data
+234-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\fortu\caches\transforms-3\f846e8830df8a32902176efd85c449e4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+235                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+235-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\fortu\caches\transforms-3\f846e8830df8a32902176efd85c449e4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+236                android:value="androidx.startup" />
+236-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\fortu\caches\transforms-3\f846e8830df8a32902176efd85c449e4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+237        </provider>
+238
+239        <service
+239-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\fortu\caches\transforms-3\33b240c181c7da5e3df44bf0d03181fa\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:28:9-34:19
+240            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+240-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\fortu\caches\transforms-3\33b240c181c7da5e3df44bf0d03181fa\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:29:13-103
+241            android:exported="false" >
+241-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\fortu\caches\transforms-3\33b240c181c7da5e3df44bf0d03181fa\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:30:13-37
+242            <meta-data
+242-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\fortu\caches\transforms-3\33b240c181c7da5e3df44bf0d03181fa\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:31:13-33:39
+243                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+243-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\fortu\caches\transforms-3\33b240c181c7da5e3df44bf0d03181fa\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:32:17-94
+244                android:value="cct" />
+244-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\fortu\caches\transforms-3\33b240c181c7da5e3df44bf0d03181fa\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:33:17-36
+245        </service>
+246        <service
+246-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\fortu\caches\transforms-3\165a56120583e83f4941933b63ddccf7\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:26:9-30:19
+247            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+247-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\fortu\caches\transforms-3\165a56120583e83f4941933b63ddccf7\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:27:13-117
+248            android:exported="false"
+248-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\fortu\caches\transforms-3\165a56120583e83f4941933b63ddccf7\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:28:13-37
+249            android:permission="android.permission.BIND_JOB_SERVICE" >
+249-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\fortu\caches\transforms-3\165a56120583e83f4941933b63ddccf7\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:29:13-69
+250        </service>
+251
+252        <receiver
+252-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\fortu\caches\transforms-3\165a56120583e83f4941933b63ddccf7\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:32:9-34:40
+253            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+253-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\fortu\caches\transforms-3\165a56120583e83f4941933b63ddccf7\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:33:13-132
+254            android:exported="false" />
+254-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\fortu\caches\transforms-3\165a56120583e83f4941933b63ddccf7\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:34:13-37
+255        <receiver
+255-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\fortu\caches\transforms-3\f846e8830df8a32902176efd85c449e4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+256            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+256-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\fortu\caches\transforms-3\f846e8830df8a32902176efd85c449e4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+257            android:directBootAware="false"
+257-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\fortu\caches\transforms-3\f846e8830df8a32902176efd85c449e4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+258            android:enabled="true"
+258-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\fortu\caches\transforms-3\f846e8830df8a32902176efd85c449e4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+259            android:exported="true"
+259-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\fortu\caches\transforms-3\f846e8830df8a32902176efd85c449e4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+260            android:permission="android.permission.DUMP" >
+260-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\fortu\caches\transforms-3\f846e8830df8a32902176efd85c449e4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+261            <intent-filter>
+261-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\fortu\caches\transforms-3\f846e8830df8a32902176efd85c449e4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+262                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+262-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\fortu\caches\transforms-3\f846e8830df8a32902176efd85c449e4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+262-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\fortu\caches\transforms-3\f846e8830df8a32902176efd85c449e4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+263            </intent-filter>
+264            <intent-filter>
+264-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\fortu\caches\transforms-3\f846e8830df8a32902176efd85c449e4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+265                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+265-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\fortu\caches\transforms-3\f846e8830df8a32902176efd85c449e4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+265-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\fortu\caches\transforms-3\f846e8830df8a32902176efd85c449e4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+266            </intent-filter>
+267            <intent-filter>
+267-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\fortu\caches\transforms-3\f846e8830df8a32902176efd85c449e4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+268                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+268-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\fortu\caches\transforms-3\f846e8830df8a32902176efd85c449e4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+268-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\fortu\caches\transforms-3\f846e8830df8a32902176efd85c449e4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+269            </intent-filter>
+270            <intent-filter>
+270-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\fortu\caches\transforms-3\f846e8830df8a32902176efd85c449e4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+271                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+271-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\fortu\caches\transforms-3\f846e8830df8a32902176efd85c449e4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+271-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\fortu\caches\transforms-3\f846e8830df8a32902176efd85c449e4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+272            </intent-filter>
+273        </receiver>
+274    </application>
+275
+276</manifest>

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.tap2tell.app-mergeDebugResources-29:/values-w320dp-land-v13/values-w320dp-land-v13.xml",
+            "outputFile": "com.example.tap2tell.app-mergeDebugResources-4:/values-w320dp-land-v13/values-w320dp-land-v13.xml",
             "map": [
                 {
-                    "source": "/home/najae/.gradle/caches/9.0-milestone-1/transforms/2af963622e35499beece93c79cb9dab2/transformed/material-1.11.0/res/values-w320dp-land-v13/values-w320dp-land-v13.xml",
+                    "source": "C:\\Users\\fortu\\caches\\9.0-milestone-1\\transforms\\ad95c86ebb3c38a5604957d55bfa2e78\\transformed\\material-1.11.0\\res\\values-w320dp-land-v13\\values-w320dp-land-v13.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

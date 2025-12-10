@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.tap2tell.app-mergeDebugResources-29:/values-port/values-port.xml",
+            "outputFile": "com.example.tap2tell.app-mergeDebugResources-4:/values-port/values-port.xml",
             "map": [
                 {
-                    "source": "/home/najae/.gradle/caches/9.0-milestone-1/transforms/bd93164e81ea9b3b16fcd17b7356161d/transformed/appcompat-1.6.1/res/values-port/values-port.xml",
+                    "source": "C:\\Users\\fortu\\caches\\9.0-milestone-1\\transforms\\a3eeed49a05d3c8f55c005fe9a93e8ad\\transformed\\appcompat-1.6.1\\res\\values-port\\values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

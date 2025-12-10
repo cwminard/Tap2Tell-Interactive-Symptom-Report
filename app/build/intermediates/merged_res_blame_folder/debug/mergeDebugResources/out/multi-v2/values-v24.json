@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.tap2tell.app-mergeDebugResources-29:/values-v24/values-v24.xml",
+            "outputFile": "com.example.tap2tell.app-mergeDebugResources-4:/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "/home/najae/.gradle/caches/9.0-milestone-1/transforms/2af963622e35499beece93c79cb9dab2/transformed/material-1.11.0/res/values-v24/values-v24.xml",
+                    "source": "C:\\Users\\fortu\\caches\\9.0-milestone-1\\transforms\\ad95c86ebb3c38a5604957d55bfa2e78\\transformed\\material-1.11.0\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,9,12,15",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/home/najae/.gradle/caches/9.0-milestone-1/transforms/bd93164e81ea9b3b16fcd17b7356161d/transformed/appcompat-1.6.1/res/values-v24/values-v24.xml",
+                    "source": "C:\\Users\\fortu\\caches\\9.0-milestone-1\\transforms\\a3eeed49a05d3c8f55c005fe9a93e8ad\\transformed\\appcompat-1.6.1\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

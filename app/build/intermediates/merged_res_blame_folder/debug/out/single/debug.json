@@ -1,0 +1,158 @@
+[
+    {
+        "merged": "com.example.tap2tell.app-merged_res-6:/layout_main_dashboard.xml.flat",
+        "source": "com.example.tap2tell.app-main-8:/layout/main_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-merged_res-6:\\layout_activity_signup.xml.flat",
+        "source": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-main-8:\\layout\\activity_signup.xml"
+    },
+    {
+        "merged": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-merged_res-6:\\drawable_ic_warning.xml.flat",
+        "source": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-main-8:\\drawable\\ic_warning.xml"
+    },
+    {
+        "merged": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-merged_res-6:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-main-8:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-merged_res-6:\\layout_papproval.xml.flat",
+        "source": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-main-8:\\layout\\papproval.xml"
+    },
+    {
+        "merged": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-merged_res-6:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-main-8:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-merged_res-6:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-main-8:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-merged_res-6:\\layout_providerchat.xml.flat",
+        "source": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-main-8:\\layout\\providerchat.xml"
+    },
+    {
+        "merged": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-merged_res-6:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-main-8:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-merged_res-6:\\drawable_ic_chat.xml.flat",
+        "source": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-main-8:\\drawable\\ic_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-merged_res-6:\\drawable_ic_meds.xml.flat",
+        "source": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-main-8:\\drawable\\ic_meds.xml"
+    },
+    {
+        "merged": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-merged_res-6:\\layout_providerdashboard.xml.flat",
+        "source": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-main-8:\\layout\\providerdashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-merged_res-6:\\layout_user_details.xml.flat",
+        "source": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-main-8:\\layout\\user_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-merged_res-6:\\layout_activity_chat.xml.flat",
+        "source": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-main-8:\\layout\\activity_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-merged_res-6:\\drawable_rounded_icon_bg.xml.flat",
+        "source": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-main-8:\\drawable\\rounded_icon_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-merged_res-6:\\drawable_ic_provider.xml.flat",
+        "source": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-main-8:\\drawable\\ic_provider.xml"
+    },
+    {
+        "merged": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-merged_res-6:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-main-8:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-merged_res-6:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-main-8:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-merged_res-6:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-main-8:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-merged_res-6:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-main-8:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-merged_res-6:\\drawable_edit.xml.flat",
+        "source": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-main-8:\\drawable\\edit.xml"
+    },
+    {
+        "merged": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-merged_res-6:\\drawable_feature_card.xml.flat",
+        "source": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-main-8:\\drawable\\feature_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-merged_res-6:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-main-8:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-merged_res-6:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-main-8:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-merged_res-6:\\layout_user_row.xml.flat",
+        "source": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-main-8:\\layout\\user_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-merged_res-6:\\layout_user_clone_layout.xml.flat",
+        "source": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-main-8:\\layout\\user_clone_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-merged_res-6:\\layout_main_dashboard.xml.flat",
+        "source": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-main-8:\\layout\\main_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-merged_res-6:\\drawable_ic_lock.xml.flat",
+        "source": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-main-8:\\drawable\\ic_lock.xml"
+    },
+    {
+        "merged": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-merged_res-6:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-main-8:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-merged_res-6:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-main-8:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-merged_res-6:\\layout_item_pending.xml.flat",
+        "source": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-main-8:\\layout\\item_pending.xml"
+    },
+    {
+        "merged": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-merged_res-6:\\layout_ai_chat.xml.flat",
+        "source": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-main-8:\\layout\\ai_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-merged_res-6:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-main-8:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-merged_res-6:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-main-8:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-merged_res-6:\\layout_providersignup.xml.flat",
+        "source": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-main-8:\\layout\\providersignup.xml"
+    },
+    {
+        "merged": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-merged_res-6:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-main-8:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-merged_res-6:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-main-8:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-merged_res-6:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-main-8:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-merged_res-6:\\layout_activity_symptoms.xml.flat",
+        "source": "C:\\Users\\fortu\\daemon\\8.2\\com.example.tap2tell.app-main-8:\\layout\\activity_symptoms.xml"
+    }
+]

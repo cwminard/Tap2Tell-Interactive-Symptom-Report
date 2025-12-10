@@ -1,78 +1,118 @@
 [
     {
-        "merged": "/home/najae/.gradle/daemon/9.0-milestone-1/com.example.tap2tell.app-debug-31:/xml_backup_rules.xml.flat",
-        "source": "/home/najae/.gradle/daemon/9.0-milestone-1/com.example.tap2tell.app-main-33:/xml/backup_rules.xml"
+        "merged": "com.example.tap2tell.app-debug-6:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.tap2tell.app-main-8:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "/home/najae/.gradle/daemon/9.0-milestone-1/com.example.tap2tell.app-debug-31:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "/home/najae/.gradle/daemon/9.0-milestone-1/com.example.tap2tell.app-main-33:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "com.example.tap2tell.app-debug-6:/drawable_ic_meds.xml.flat",
+        "source": "com.example.tap2tell.app-main-8:/drawable/ic_meds.xml"
     },
     {
-        "merged": "/home/najae/.gradle/daemon/9.0-milestone-1/com.example.tap2tell.app-debug-31:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "/home/najae/.gradle/daemon/9.0-milestone-1/com.example.tap2tell.app-main-33:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "com.example.tap2tell.app-debug-6:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.tap2tell.app-main-8:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "/home/najae/.gradle/daemon/9.0-milestone-1/com.example.tap2tell.app-debug-31:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "/home/najae/.gradle/daemon/9.0-milestone-1/com.example.tap2tell.app-main-33:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "com.example.tap2tell.app-debug-6:/drawable_ic_chat.xml.flat",
+        "source": "com.example.tap2tell.app-main-8:/drawable/ic_chat.xml"
     },
     {
-        "merged": "/home/najae/.gradle/daemon/9.0-milestone-1/com.example.tap2tell.app-debug-31:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "/home/najae/.gradle/daemon/9.0-milestone-1/com.example.tap2tell.app-main-33:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "com.example.tap2tell.app-debug-6:/xml_backup_rules.xml.flat",
+        "source": "com.example.tap2tell.app-main-8:/xml/backup_rules.xml"
     },
     {
-        "merged": "/home/najae/.gradle/daemon/9.0-milestone-1/com.example.tap2tell.app-debug-31:/layout_activity_login.xml.flat",
-        "source": "/home/najae/.gradle/daemon/9.0-milestone-1/com.example.tap2tell.app-main-33:/layout/activity_login.xml"
+        "merged": "com.example.tap2tell.app-debug-6:/drawable_rounded_icon_bg.xml.flat",
+        "source": "com.example.tap2tell.app-main-8:/drawable/rounded_icon_bg.xml"
     },
     {
-        "merged": "/home/najae/.gradle/daemon/9.0-milestone-1/com.example.tap2tell.app-debug-31:/layout_activity_main.xml.flat",
-        "source": "/home/najae/.gradle/daemon/9.0-milestone-1/com.example.tap2tell.app-main-33:/layout/activity_main.xml"
+        "merged": "com.example.tap2tell.app-debug-6:/drawable_ic_warning.xml.flat",
+        "source": "com.example.tap2tell.app-main-8:/drawable/ic_warning.xml"
     },
     {
-        "merged": "/home/najae/.gradle/daemon/9.0-milestone-1/com.example.tap2tell.app-debug-31:/layout_activity_signup.xml.flat",
-        "source": "/home/najae/.gradle/daemon/9.0-milestone-1/com.example.tap2tell.app-main-33:/layout/activity_signup.xml"
+        "merged": "com.example.tap2tell.app-debug-6:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.tap2tell.app-main-8:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/home/najae/.gradle/daemon/9.0-milestone-1/com.example.tap2tell.app-debug-31:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "/home/najae/.gradle/daemon/9.0-milestone-1/com.example.tap2tell.app-main-33:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "com.example.tap2tell.app-debug-6:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.tap2tell.app-main-8:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "/home/najae/.gradle/daemon/9.0-milestone-1/com.example.tap2tell.app-debug-31:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "/home/najae/.gradle/daemon/9.0-milestone-1/com.example.tap2tell.app-main-33:/drawable/ic_launcher_foreground.xml"
+        "merged": "com.example.tap2tell.app-debug-6:/layout_activity_symptoms.xml.flat",
+        "source": "com.example.tap2tell.app-main-8:/layout/activity_symptoms.xml"
     },
     {
-        "merged": "/home/najae/.gradle/daemon/9.0-milestone-1/com.example.tap2tell.app-debug-31:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "/home/najae/.gradle/daemon/9.0-milestone-1/com.example.tap2tell.app-main-33:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "com.example.tap2tell.app-debug-6:/layout_activity_chat.xml.flat",
+        "source": "com.example.tap2tell.app-main-8:/layout/activity_chat.xml"
     },
     {
-        "merged": "/home/najae/.gradle/daemon/9.0-milestone-1/com.example.tap2tell.app-debug-31:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "/home/najae/.gradle/daemon/9.0-milestone-1/com.example.tap2tell.app-main-33:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "com.example.tap2tell.app-debug-6:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.tap2tell.app-main-8:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/home/najae/.gradle/daemon/9.0-milestone-1/com.example.tap2tell.app-debug-31:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "/home/najae/.gradle/daemon/9.0-milestone-1/com.example.tap2tell.app-main-33:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "com.example.tap2tell.app-debug-6:/layout_activity_signup.xml.flat",
+        "source": "com.example.tap2tell.app-main-8:/layout/activity_signup.xml"
     },
     {
-        "merged": "/home/najae/.gradle/daemon/9.0-milestone-1/com.example.tap2tell.app-debug-31:/xml_data_extraction_rules.xml.flat",
-        "source": "/home/najae/.gradle/daemon/9.0-milestone-1/com.example.tap2tell.app-main-33:/xml/data_extraction_rules.xml"
+        "merged": "com.example.tap2tell.app-debug-6:/drawable_ic_provider.xml.flat",
+        "source": "com.example.tap2tell.app-main-8:/drawable/ic_provider.xml"
     },
     {
-        "merged": "com.example.tap2tell.app-debug-31:/layout_activity_main.xml.flat",
-        "source": "com.example.tap2tell.app-main-33:/layout/activity_main.xml"
+        "merged": "com.example.tap2tell.app-debug-6:/layout_main_dashboard.xml.flat",
+        "source": "com.example.tap2tell.app-main-8:/layout/main_dashboard.xml"
     },
     {
-        "merged": "/home/najae/.gradle/daemon/9.0-milestone-1/com.example.tap2tell.app-debug-31:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "/home/najae/.gradle/daemon/9.0-milestone-1/com.example.tap2tell.app-main-33:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "com.example.tap2tell.app-debug-6:/drawable_ic_lock.xml.flat",
+        "source": "com.example.tap2tell.app-main-8:/drawable/ic_lock.xml"
     },
     {
-        "merged": "/home/najae/.gradle/daemon/9.0-milestone-1/com.example.tap2tell.app-debug-31:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/home/najae/.gradle/daemon/9.0-milestone-1/com.example.tap2tell.app-main-33:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "com.example.tap2tell.app-debug-6:/layout_activity_login.xml.flat",
+        "source": "com.example.tap2tell.app-main-8:/layout/activity_login.xml"
     },
     {
-        "merged": "/home/najae/.gradle/daemon/9.0-milestone-1/com.example.tap2tell.app-debug-31:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "/home/najae/.gradle/daemon/9.0-milestone-1/com.example.tap2tell.app-main-33:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "com.example.tap2tell.app-debug-6:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.tap2tell.app-main-8:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "/home/najae/.gradle/daemon/9.0-milestone-1/com.example.tap2tell.app-debug-31:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/home/najae/.gradle/daemon/9.0-milestone-1/com.example.tap2tell.app-main-33:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "com.example.tap2tell.app-debug-6:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.tap2tell.app-main-8:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.tap2tell.app-debug-6:/drawable_edit.xml.flat",
+        "source": "com.example.tap2tell.app-main-8:/drawable/edit.xml"
+    },
+    {
+        "merged": "com.example.tap2tell.app-debug-6:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.tap2tell.app-main-8:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.tap2tell.app-debug-6:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.tap2tell.app-main-8:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.tap2tell.app-debug-6:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.tap2tell.app-main-8:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.tap2tell.app-debug-6:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.tap2tell.app-main-8:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.tap2tell.app-debug-6:/drawable_feature_card.xml.flat",
+        "source": "com.example.tap2tell.app-main-8:/drawable/feature_card.xml"
+    },
+    {
+        "merged": "com.example.tap2tell.app-debug-6:/layout_activity_main.xml.flat",
+        "source": "com.example.tap2tell.app-main-8:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.tap2tell.app-debug-6:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.tap2tell.app-main-8:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.tap2tell.app-debug-6:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.tap2tell.app-main-8:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.tap2tell.app-debug-6:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.tap2tell.app-main-8:/mipmap-hdpi/ic_launcher_round.webp"
     }
 ]

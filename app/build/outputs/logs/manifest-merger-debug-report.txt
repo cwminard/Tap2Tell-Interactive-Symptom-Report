@@ -1,306 +1,925 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/najae/StudioProjects/Tap2Tell/app/src/main/AndroidManifest.xml:2:1-34:12
-INJECTED from /home/najae/StudioProjects/Tap2Tell/app/src/main/AndroidManifest.xml:2:1-34:12
-INJECTED from /home/najae/StudioProjects/Tap2Tell/app/src/main/AndroidManifest.xml:2:1-34:12
-INJECTED from /home/najae/StudioProjects/Tap2Tell/app/src/main/AndroidManifest.xml:2:1-34:12
-MERGED from [com.google.android.material:material:1.11.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/2af963622e35499beece93c79cb9dab2/transformed/material-1.11.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/najae/.gradle/caches/9.0-milestone-1/transforms/213dda7a757dd5ca0fb0b1fcb4aa4815/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/najae/.gradle/caches/9.0-milestone-1/transforms/54004271ff1060622c294cb33b31c0ea/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.appcompat:appcompat:1.6.1] /home/najae/.gradle/caches/9.0-milestone-1/transforms/bd93164e81ea9b3b16fcd17b7356161d/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/87b7d8352239bf7d41e145fcd87afceb/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.fragment:fragment:1.3.6] /home/najae/.gradle/caches/9.0-milestone-1/transforms/81403957f60f54530f89c4dd47281b6b/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity:1.8.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/6026ff17b3dfb12cc0f707c3fadcdf33/transformed/jetified-activity-1.8.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core-ktx:1.12.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/24bdbf6a7a584c970d1ae8b168ec43ff/transformed/jetified-core-ktx-1.12.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/fe4a1005c9024734b03899050ba5b30a/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.emoji2:emoji2:1.2.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/486974f4b329ab9d6def334df8318558/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/najae/.gradle/caches/9.0-milestone-1/transforms/bcd411d87fef7a03f542a3d3754b9cb8/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/9fc415c7d5af1b1bdf8461489b843d07/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/14fa77a1212d781786d8fcc71f5fbac7/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.transition:transition:1.2.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/c06a78989946db641c1846da9ee8da20/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/fbed4a4514c9ff917df1198258da4461/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/564af04b75db8f9af290c48daa68572c/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/2e967eaed9baae1d3b728389594c95a4/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/7713e427cb0573636b6eeefc1f2350f0/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/50796f863f5e72cbc00b7c7f16745a1a/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/abb191e524642cda0f374a74281c90a2/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.customview:customview:1.1.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/990af9dc354a9bdbe1d5d41f08925577/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core:1.12.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/bdd75cd663a32ba54d63630ce06f9220/transformed/core-1.12.0/AndroidManifest.xml:17:1-30:12
-MERGED from [androidx.savedstate:savedstate:1.2.1] /home/najae/.gradle/caches/9.0-milestone-1/transforms/bceceda348bc27721e3192819c858085/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /home/najae/.gradle/caches/9.0-milestone-1/transforms/bd2766e2f53fb2df8593909f7c9e9c05/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:17:1-35:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /home/najae/.gradle/caches/9.0-milestone-1/transforms/96834299a88593974237ebd34cec9dc4/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /home/najae/.gradle/caches/9.0-milestone-1/transforms/5d672837e4852128dc75e97ca09db33a/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /home/najae/.gradle/caches/9.0-milestone-1/transforms/4e2cafd2e31db64f94e878020a56cb52/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /home/najae/.gradle/caches/9.0-milestone-1/transforms/7f82e5387aff7763411b36c93cec6ed2/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /home/najae/.gradle/caches/9.0-milestone-1/transforms/a0ec2c2e1b82144b85c68bad392aa4c0/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/2bad2f09568b1b36b3b390eafca06111/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/c208628d387463215c4c57f44d341231/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.cardview:cardview:1.0.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/38f7b9ff19015ad8b90d02779d2ce37f/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/1ff9ca3aa6bcf07d6a2bf39c25edb734/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/najae/.gradle/caches/9.0-milestone-1/transforms/807c8e53f43da1fdf166f2985c328a6a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/b833a8aa1f9fdeef8fd14069d153906a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:17:1-55:12
-MERGED from [androidx.startup:startup-runtime:1.1.1] /home/najae/.gradle/caches/9.0-milestone-1/transforms/a678665351d86b292e18175335837d7e/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
-MERGED from [androidx.tracing:tracing:1.0.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/959937ba85d82226201a58ff6080a779/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/95aa70531f26712c3fde722f7f6b1576/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/b5edcb842e67d29f8e82750794e512e3/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/f715441e927bae9170d7ed2271136cf3/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/f6ba76749392a6f8263bb2f839c7c54e/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+ADDED from C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:2:1-65:12
+INJECTED from C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:2:1-65:12
+INJECTED from C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:2:1-65:12
+INJECTED from C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:2:1-65:12
+MERGED from [com.google.firebase:firebase-crashlytics-ktx:18.6.0] C:\Users\fortu\caches\transforms-3\2a8506b8fb66444c70c100a55fef210d\transformed\jetified-firebase-crashlytics-ktx-18.6.0\AndroidManifest.xml:15:1-30:12
+MERGED from [com.google.firebase:firebase-database-ktx:20.3.0] C:\Users\fortu\caches\transforms-3\a6535b1bd8fa85f8aebba59e8f409297\transformed\jetified-firebase-database-ktx-20.3.0\AndroidManifest.xml:2:1-18:12
+MERGED from [androidx.room:room-ktx:2.6.1] C:\Users\fortu\caches\transforms-3\eaa5bc2b81135ee2781abd6f97d9953a\transformed\jetified-room-ktx-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\fortu\caches\transforms-3\14802347e0265a32ac9087c9d6faf60e\transformed\room-runtime-2.6.1\AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.5.0] C:\Users\fortu\caches\transforms-3\dd5deb464e535591216e2be992272b01\transformed\jetified-firebase-analytics-ktx-21.5.0\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.firebase:firebase-auth-ktx:22.3.0] C:\Users\fortu\caches\transforms-3\4c71732b25f48e13c642b86dc5883d2a\transformed\jetified-firebase-auth-ktx-22.3.0\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.firebase:firebase-crashlytics:18.6.0] C:\Users\fortu\caches\transforms-3\63725a07ea33aea88d62dfe44684b325\transformed\jetified-firebase-crashlytics-18.6.0\AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-database:20.3.0] C:\Users\fortu\caches\transforms-3\8ee02e975cad74e108861bce6402d81b\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:17:1-75:12
+MERGED from [com.google.firebase:firebase-sessions:1.2.0] C:\Users\fortu\caches\transforms-3\aeb19ee1e8da160a7118c008487ca5cc\transformed\jetified-firebase-sessions-1.2.0\AndroidManifest.xml:15:1-35:12
+MERGED from [com.google.firebase:firebase-analytics:21.5.0] C:\Users\fortu\caches\transforms-3\47c9c29b8f6dce4cf6cea095ae86d8fa\transformed\jetified-firebase-analytics-21.5.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\fortu\caches\transforms-3\79cdcb40a39d7e1c402283af9cf001eb\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:17:1-43:12
+MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\fortu\caches\transforms-3\f408a8b3274e781cd23640ddea2bb53d\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\fortu\caches\transforms-3\d857893510eb3ce1d1e545777fe121a1\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\fortu\caches\transforms-3\ff27c2885ef64302fee83306d4a76a03\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\fortu\caches\transforms-3\322e7911774891daf99882ff68ef01a5\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] C:\Users\fortu\caches\transforms-3\abe40760e2980f9ec8c8a55dda689deb\transformed\jetified-recaptcha-18.1.2\AndroidManifest.xml:2:1-10:12
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] C:\Users\fortu\caches\transforms-3\ae24002e953eb8c34d8211820ceda96c\transformed\jetified-datastore-preferences-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.datastore:datastore:1.0.0] C:\Users\fortu\caches\transforms-3\0700ddd7d25bdc480bfcaa215ef0cc1d\transformed\jetified-datastore-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-measurement:21.5.0] C:\Users\fortu\caches\transforms-3\0497a67f99ac56fb0e79703eb4bbbcae\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.5.0] C:\Users\fortu\caches\transforms-3\b4e46b65045d3edde3489086d662eeb6\transformed\jetified-play-services-measurement-sdk-21.5.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.5.0] C:\Users\fortu\caches\transforms-3\ecca54ba2aa9837fa5ce0694f9754403\transformed\jetified-play-services-measurement-impl-21.5.0\AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.0.0-beta05] C:\Users\fortu\caches\transforms-3\e7420567044fba7f0b3c6ae6e523c8d8\transformed\jetified-ads-adservices-java-1.0.0-beta05\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\fortu\caches\transforms-3\693aca8fee0d62c0589bb5215552a0a2\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\fortu\caches\transforms-3\dc433f3190cd8837855c19c2aaa998ad\transformed\material-1.11.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\fortu\caches\transforms-3\43b63a61afe6d3acfc2590b06ffdd3ec\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\fortu\caches\transforms-3\b6f9becd28b35a3b46d5b685ce21c066\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\fortu\caches\transforms-3\9eb9ecc8e557ba8901057ba11a076505\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\fortu\caches\transforms-3\b53399098058b2ac790a2971e66b6fea\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\fortu\caches\transforms-3\3f82e8d8045edaaec07d6e0b9b112a2d\transformed\jetified-firebase-appcheck-interop-17.1.0\AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\fortu\caches\transforms-3\722c0ae18dac79e663a38108ed9f93fc\transformed\jetified-firebase-database-collection-18.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\fortu\caches\transforms-3\105338a74a3ba17ceeeaa443a7dafa98\transformed\jetified-play-services-auth-api-phone-17.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\fortu\caches\transforms-3\0818b56498c05772ce60afecdac91b6a\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.play:integrity:1.1.0] C:\Users\fortu\caches\transforms-3\caeea4ece04e7dce09ba3d1765785fb6\transformed\jetified-integrity-1.1.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] C:\Users\fortu\caches\transforms-3\868a557cae1a4ba5d36f87e55b0d1f34\transformed\jetified-firebase-installations-interop-17.1.1\AndroidManifest.xml:15:1-19:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\fortu\caches\transforms-3\10c136c1a9bde9cc517d7dbb70adf4e7\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\fortu\caches\transforms-3\f8f76238f862ee3d729154e560757e2b\transformed\jetified-play-services-ads-identifier-18.0.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.5.0] C:\Users\fortu\caches\transforms-3\c817e3ecb12f371cd6781442d5f7caeb\transformed\jetified-play-services-measurement-sdk-api-21.5.0\AndroidManifest.xml:17:1-30:12
+MERGED from [com.google.android.gms:play-services-measurement-base:21.5.0] C:\Users\fortu\caches\transforms-3\83a2a4ce6a5af8eb609177e72cc8da95\transformed\jetified-play-services-measurement-base-21.5.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\fortu\caches\transforms-3\16c7e24fb331ddb9440320875e7b224a\transformed\jetified-play-services-stats-17.0.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\fortu\caches\transforms-3\f892ecb0270c26593cad784f2aa621da\transformed\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\fortu\caches\transforms-3\6c1332faead9c2cf3ed544ba3be0bf62\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\fortu\caches\transforms-3\4ac9f1ee53234c8a197b8b2c956fdf8c\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\fortu\caches\transforms-3\3478d4a51e5e02c54cff590edd1d2e3f\transformed\jetified-activity-1.8.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\fortu\caches\transforms-3\8faee64423818ad182cc38624c2d11d1\transformed\jetified-core-ktx-1.12.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\fortu\caches\transforms-3\f04b2172ba4a4c83d681618367df2db3\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\fortu\caches\transforms-3\f58ff2112c5f1664b70001ad2e12a684\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\fortu\caches\transforms-3\97bbd9b51a0719cbcb932f3e4e85ebfb\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\fortu\caches\transforms-3\5c78aa0f2b190013c112deff8888b4dc\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\fortu\caches\transforms-3\20aac533d734338f5ec82b14b41813ca\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\fortu\caches\transforms-3\c636d86a64d2db6b3abeedf0a0081aa3\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\fortu\caches\transforms-3\c8127e12d3d365d817b401ff25cf80f8\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\fortu\caches\transforms-3\f1af61a637ccb90069d99b5f96e60f40\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\fortu\caches\transforms-3\44d324f8735eda9fd3b195f0f2ee15ae\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\fortu\caches\transforms-3\8bdbe7dac4a391c630f9cafb9734f62a\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\fortu\caches\transforms-3\6812572707dda0d90d63e0298cb3bfa3\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\fortu\caches\transforms-3\da6db20f118e025551e2772a22f40bd7\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\fortu\caches\transforms-3\ff4b35b79f82b7d38cc42ac87a6916c3\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\fortu\caches\transforms-3\70ef8e7e739a004f1b1c759e61332e6c\transformed\browser-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.12.0] C:\Users\fortu\caches\transforms-3\65c34b469c8b6c887310c558ac7d04ef\transformed\core-1.12.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\fortu\caches\transforms-3\ee8466c44d549448f8c76dffdf823bb3\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\fortu\caches\transforms-3\94ec4a03db3e75ed0c8e544863d3a455\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] C:\Users\fortu\caches\transforms-3\92576ee5b4c8c8d373c46b0efd6d3ac3\transformed\lifecycle-livedata-core-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] C:\Users\fortu\caches\transforms-3\3e099968fe08821d3674b4c762e90922\transformed\lifecycle-livedata-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] C:\Users\fortu\caches\transforms-3\3865871165d1cf0be90d772966e1f1f1\transformed\lifecycle-viewmodel-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] C:\Users\fortu\caches\transforms-3\fceaafaae51e1c6464d8c3641b7bb3cb\transformed\lifecycle-runtime-2.6.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] C:\Users\fortu\caches\transforms-3\231397d4c5caf2782fe2531d9dfcee43\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-config-interop:16.0.0] C:\Users\fortu\caches\transforms-3\5aba14cf8d4a6319f6bdc6263fe73cd4\transformed\jetified-firebase-config-interop-16.0.0\AndroidManifest.xml:15:1-20:12
+MERGED from [com.google.firebase:firebase-datatransport:18.1.8] C:\Users\fortu\caches\transforms-3\b3fdd3acfd01a511e24ceaa400180773\transformed\jetified-firebase-datatransport-18.1.8\AndroidManifest.xml:15:1-33:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\fortu\caches\transforms-3\33b240c181c7da5e3df44bf0d03181fa\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:15:1-37:12
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.1] C:\Users\fortu\caches\transforms-3\995d0ef258da299aca51ba2584ea13e9\transformed\jetified-firebase-encoders-json-18.0.1\AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\fortu\caches\transforms-3\165a56120583e83f4941933b63ddccf7\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:15:1-41:12
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\fortu\caches\transforms-3\b63f73d4d043a009bedf5f0680044ec0\transformed\sqlite-framework-2.4.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\fortu\caches\transforms-3\8621524023c0ca71b083189bea736d36\transformed\sqlite-2.4.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\fortu\caches\transforms-3\20c11e49366d8f60946444a22c9b2300\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\fortu\caches\transforms-3\2d4056ae1b47f6255dd8f41e5b3921ba\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\fortu\caches\transforms-3\8cf63e964194e76dbc985df37ab5d75d\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\fortu\caches\transforms-3\28552d6a66e4e2c841e0d81647239c7e\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:17.1.5] C:\Users\fortu\caches\transforms-3\b4c286c478bfd3be4e52d48bed55c2ed\transformed\jetified-firebase-components-17.1.5\AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\fortu\caches\transforms-3\c0b92c9d41124b4ba888edbf7e8b6a65\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\fortu\caches\transforms-3\f45ca853a93f4f40026defc2d767850d\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\fortu\caches\transforms-3\f846e8830df8a32902176efd85c449e4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\fortu\caches\transforms-3\6945662b77f13fce7785ac444c0ad8fa\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\fortu\caches\transforms-3\debee781dfb0c62cfb4bf848ca704812\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] C:\Users\fortu\caches\transforms-3\dd11a71750d72d92cb70928330f4002d\transformed\jetified-transport-api-3.0.0\AndroidManifest.xml:15:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\fortu\caches\transforms-3\9442074d62ef8500d33c9daa4320a35a\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\fortu\caches\transforms-3\398e89959cab2722eda8f97de3dd43e5\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\fortu\caches\transforms-3\c18035cd44bdbd8e96ae9383979cd114\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 	package
-		INJECTED from /home/najae/StudioProjects/Tap2Tell/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/najae/StudioProjects/Tap2Tell/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from /home/najae/StudioProjects/Tap2Tell/app/src/main/AndroidManifest.xml:3:5-51
+		ADDED from C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from /home/najae/StudioProjects/Tap2Tell/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/najae/StudioProjects/Tap2Tell/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from /home/najae/StudioProjects/Tap2Tell/app/src/main/AndroidManifest.xml:5:5-32:19
-INJECTED from /home/najae/StudioProjects/Tap2Tell/app/src/main/AndroidManifest.xml:5:5-32:19
-MERGED from [com.google.android.material:material:1.11.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/2af963622e35499beece93c79cb9dab2/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.11.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/2af963622e35499beece93c79cb9dab2/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/najae/.gradle/caches/9.0-milestone-1/transforms/213dda7a757dd5ca0fb0b1fcb4aa4815/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/najae/.gradle/caches/9.0-milestone-1/transforms/213dda7a757dd5ca0fb0b1fcb4aa4815/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
-MERGED from [androidx.emoji2:emoji2:1.2.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/486974f4b329ab9d6def334df8318558/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.emoji2:emoji2:1.2.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/486974f4b329ab9d6def334df8318558/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.core:core:1.12.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/bdd75cd663a32ba54d63630ce06f9220/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
-MERGED from [androidx.core:core:1.12.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/bdd75cd663a32ba54d63630ce06f9220/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /home/najae/.gradle/caches/9.0-milestone-1/transforms/bd2766e2f53fb2df8593909f7c9e9c05/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /home/najae/.gradle/caches/9.0-milestone-1/transforms/bd2766e2f53fb2df8593909f7c9e9c05/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/najae/.gradle/caches/9.0-milestone-1/transforms/807c8e53f43da1fdf166f2985c328a6a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/najae/.gradle/caches/9.0-milestone-1/transforms/807c8e53f43da1fdf166f2985c328a6a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/b833a8aa1f9fdeef8fd14069d153906a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/b833a8aa1f9fdeef8fd14069d153906a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
-MERGED from [androidx.startup:startup-runtime:1.1.1] /home/najae/.gradle/caches/9.0-milestone-1/transforms/a678665351d86b292e18175335837d7e/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
-MERGED from [androidx.startup:startup-runtime:1.1.1] /home/najae/.gradle/caches/9.0-milestone-1/transforms/a678665351d86b292e18175335837d7e/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+ADDED from C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:5:5-62:19
+INJECTED from C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:5:5-62:19
+MERGED from [com.google.firebase:firebase-crashlytics-ktx:18.6.0] C:\Users\fortu\caches\transforms-3\2a8506b8fb66444c70c100a55fef210d\transformed\jetified-firebase-crashlytics-ktx-18.6.0\AndroidManifest.xml:20:5-28:19
+MERGED from [com.google.firebase:firebase-crashlytics-ktx:18.6.0] C:\Users\fortu\caches\transforms-3\2a8506b8fb66444c70c100a55fef210d\transformed\jetified-firebase-crashlytics-ktx-18.6.0\AndroidManifest.xml:20:5-28:19
+MERGED from [com.google.firebase:firebase-database-ktx:20.3.0] C:\Users\fortu\caches\transforms-3\a6535b1bd8fa85f8aebba59e8f409297\transformed\jetified-firebase-database-ktx-20.3.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-database-ktx:20.3.0] C:\Users\fortu\caches\transforms-3\a6535b1bd8fa85f8aebba59e8f409297\transformed\jetified-firebase-database-ktx-20.3.0\AndroidManifest.xml:8:5-16:19
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\fortu\caches\transforms-3\14802347e0265a32ac9087c9d6faf60e\transformed\room-runtime-2.6.1\AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\fortu\caches\transforms-3\14802347e0265a32ac9087c9d6faf60e\transformed\room-runtime-2.6.1\AndroidManifest.xml:23:5-29:19
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.5.0] C:\Users\fortu\caches\transforms-3\dd5deb464e535591216e2be992272b01\transformed\jetified-firebase-analytics-ktx-21.5.0\AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.5.0] C:\Users\fortu\caches\transforms-3\dd5deb464e535591216e2be992272b01\transformed\jetified-firebase-analytics-ktx-21.5.0\AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-auth-ktx:22.3.0] C:\Users\fortu\caches\transforms-3\4c71732b25f48e13c642b86dc5883d2a\transformed\jetified-firebase-auth-ktx-22.3.0\AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-auth-ktx:22.3.0] C:\Users\fortu\caches\transforms-3\4c71732b25f48e13c642b86dc5883d2a\transformed\jetified-firebase-auth-ktx-22.3.0\AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-crashlytics:18.6.0] C:\Users\fortu\caches\transforms-3\63725a07ea33aea88d62dfe44684b325\transformed\jetified-firebase-crashlytics-18.6.0\AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-crashlytics:18.6.0] C:\Users\fortu\caches\transforms-3\63725a07ea33aea88d62dfe44684b325\transformed\jetified-firebase-crashlytics-18.6.0\AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-database:20.3.0] C:\Users\fortu\caches\transforms-3\8ee02e975cad74e108861bce6402d81b\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:25:5-36:19
+MERGED from [com.google.firebase:firebase-database:20.3.0] C:\Users\fortu\caches\transforms-3\8ee02e975cad74e108861bce6402d81b\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:25:5-36:19
+MERGED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-sessions:1.2.0] C:\Users\fortu\caches\transforms-3\aeb19ee1e8da160a7118c008487ca5cc\transformed\jetified-firebase-sessions-1.2.0\AndroidManifest.xml:21:5-33:19
+MERGED from [com.google.firebase:firebase-sessions:1.2.0] C:\Users\fortu\caches\transforms-3\aeb19ee1e8da160a7118c008487ca5cc\transformed\jetified-firebase-sessions-1.2.0\AndroidManifest.xml:21:5-33:19
+MERGED from [com.google.firebase:firebase-analytics:21.5.0] C:\Users\fortu\caches\transforms-3\47c9c29b8f6dce4cf6cea095ae86d8fa\transformed\jetified-firebase-analytics-21.5.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:21.5.0] C:\Users\fortu\caches\transforms-3\47c9c29b8f6dce4cf6cea095ae86d8fa\transformed\jetified-firebase-analytics-21.5.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\fortu\caches\transforms-3\79cdcb40a39d7e1c402283af9cf001eb\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:29:5-41:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\fortu\caches\transforms-3\79cdcb40a39d7e1c402283af9cf001eb\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:29:5-41:19
+MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\fortu\caches\transforms-3\f408a8b3274e781cd23640ddea2bb53d\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\fortu\caches\transforms-3\f408a8b3274e781cd23640ddea2bb53d\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\fortu\caches\transforms-3\d857893510eb3ce1d1e545777fe121a1\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\fortu\caches\transforms-3\d857893510eb3ce1d1e545777fe121a1\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\fortu\caches\transforms-3\ff27c2885ef64302fee83306d4a76a03\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\fortu\caches\transforms-3\ff27c2885ef64302fee83306d4a76a03\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\fortu\caches\transforms-3\322e7911774891daf99882ff68ef01a5\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\fortu\caches\transforms-3\322e7911774891daf99882ff68ef01a5\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.android.gms:play-services-measurement:21.5.0] C:\Users\fortu\caches\transforms-3\0497a67f99ac56fb0e79703eb4bbbcae\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:21.5.0] C:\Users\fortu\caches\transforms-3\0497a67f99ac56fb0e79703eb4bbbcae\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.5.0] C:\Users\fortu\caches\transforms-3\b4e46b65045d3edde3489086d662eeb6\transformed\jetified-play-services-measurement-sdk-21.5.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.5.0] C:\Users\fortu\caches\transforms-3\b4e46b65045d3edde3489086d662eeb6\transformed\jetified-play-services-measurement-sdk-21.5.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.5.0] C:\Users\fortu\caches\transforms-3\ecca54ba2aa9837fa5ce0694f9754403\transformed\jetified-play-services-measurement-impl-21.5.0\AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.5.0] C:\Users\fortu\caches\transforms-3\ecca54ba2aa9837fa5ce0694f9754403\transformed\jetified-play-services-measurement-impl-21.5.0\AndroidManifest.xml:29:5-30:19
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\fortu\caches\transforms-3\693aca8fee0d62c0589bb5215552a0a2\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\fortu\caches\transforms-3\693aca8fee0d62c0589bb5215552a0a2\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\fortu\caches\transforms-3\dc433f3190cd8837855c19c2aaa998ad\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\fortu\caches\transforms-3\dc433f3190cd8837855c19c2aaa998ad\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\fortu\caches\transforms-3\43b63a61afe6d3acfc2590b06ffdd3ec\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\fortu\caches\transforms-3\43b63a61afe6d3acfc2590b06ffdd3ec\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\fortu\caches\transforms-3\3f82e8d8045edaaec07d6e0b9b112a2d\transformed\jetified-firebase-appcheck-interop-17.1.0\AndroidManifest.xml:21:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\fortu\caches\transforms-3\3f82e8d8045edaaec07d6e0b9b112a2d\transformed\jetified-firebase-appcheck-interop-17.1.0\AndroidManifest.xml:21:5-20
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\fortu\caches\transforms-3\0818b56498c05772ce60afecdac91b6a\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\fortu\caches\transforms-3\0818b56498c05772ce60afecdac91b6a\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.play:integrity:1.1.0] C:\Users\fortu\caches\transforms-3\caeea4ece04e7dce09ba3d1765785fb6\transformed\jetified-integrity-1.1.0\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.play:integrity:1.1.0] C:\Users\fortu\caches\transforms-3\caeea4ece04e7dce09ba3d1765785fb6\transformed\jetified-integrity-1.1.0\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\fortu\caches\transforms-3\10c136c1a9bde9cc517d7dbb70adf4e7\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\fortu\caches\transforms-3\10c136c1a9bde9cc517d7dbb70adf4e7\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\fortu\caches\transforms-3\f8f76238f862ee3d729154e560757e2b\transformed\jetified-play-services-ads-identifier-18.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\fortu\caches\transforms-3\f8f76238f862ee3d729154e560757e2b\transformed\jetified-play-services-ads-identifier-18.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:21.5.0] C:\Users\fortu\caches\transforms-3\83a2a4ce6a5af8eb609177e72cc8da95\transformed\jetified-play-services-measurement-base-21.5.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:21.5.0] C:\Users\fortu\caches\transforms-3\83a2a4ce6a5af8eb609177e72cc8da95\transformed\jetified-play-services-measurement-base-21.5.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\fortu\caches\transforms-3\16c7e24fb331ddb9440320875e7b224a\transformed\jetified-play-services-stats-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\fortu\caches\transforms-3\16c7e24fb331ddb9440320875e7b224a\transformed\jetified-play-services-stats-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\fortu\caches\transforms-3\f892ecb0270c26593cad784f2aa621da\transformed\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\fortu\caches\transforms-3\f892ecb0270c26593cad784f2aa621da\transformed\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\fortu\caches\transforms-3\6c1332faead9c2cf3ed544ba3be0bf62\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\fortu\caches\transforms-3\6c1332faead9c2cf3ed544ba3be0bf62\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\fortu\caches\transforms-3\f58ff2112c5f1664b70001ad2e12a684\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\fortu\caches\transforms-3\f58ff2112c5f1664b70001ad2e12a684\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.12.0] C:\Users\fortu\caches\transforms-3\65c34b469c8b6c887310c558ac7d04ef\transformed\core-1.12.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.12.0] C:\Users\fortu\caches\transforms-3\65c34b469c8b6c887310c558ac7d04ef\transformed\core-1.12.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\fortu\caches\transforms-3\94ec4a03db3e75ed0c8e544863d3a455\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\fortu\caches\transforms-3\94ec4a03db3e75ed0c8e544863d3a455\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.8] C:\Users\fortu\caches\transforms-3\b3fdd3acfd01a511e24ceaa400180773\transformed\jetified-firebase-datatransport-18.1.8\AndroidManifest.xml:23:5-31:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.8] C:\Users\fortu\caches\transforms-3\b3fdd3acfd01a511e24ceaa400180773\transformed\jetified-firebase-datatransport-18.1.8\AndroidManifest.xml:23:5-31:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\fortu\caches\transforms-3\33b240c181c7da5e3df44bf0d03181fa\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\fortu\caches\transforms-3\33b240c181c7da5e3df44bf0d03181fa\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\fortu\caches\transforms-3\165a56120583e83f4941933b63ddccf7\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\fortu\caches\transforms-3\165a56120583e83f4941933b63ddccf7\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:25:5-39:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\fortu\caches\transforms-3\f45ca853a93f4f40026defc2d767850d\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\fortu\caches\transforms-3\f45ca853a93f4f40026defc2d767850d\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\fortu\caches\transforms-3\f846e8830df8a32902176efd85c449e4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\fortu\caches\transforms-3\f846e8830df8a32902176efd85c449e4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\fortu\caches\transforms-3\6945662b77f13fce7785ac444c0ad8fa\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\fortu\caches\transforms-3\6945662b77f13fce7785ac444c0ad8fa\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 	android:extractNativeLibs
-		INJECTED from /home/najae/StudioProjects/Tap2Tell/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.12.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/bdd75cd663a32ba54d63630ce06f9220/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+		ADDED from [androidx.core:core:1.12.0] C:\Users\fortu\caches\transforms-3\65c34b469c8b6c887310c558ac7d04ef\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from /home/najae/StudioProjects/Tap2Tell/app/src/main/AndroidManifest.xml:12:9-35
+		ADDED from C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:12:9-35
 	android:label
-		ADDED from /home/najae/StudioProjects/Tap2Tell/app/src/main/AndroidManifest.xml:10:9-41
+		ADDED from C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:10:9-41
 	android:fullBackupContent
-		ADDED from /home/najae/StudioProjects/Tap2Tell/app/src/main/AndroidManifest.xml:8:9-54
+		ADDED from C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:8:9-54
 	android:roundIcon
-		ADDED from /home/najae/StudioProjects/Tap2Tell/app/src/main/AndroidManifest.xml:11:9-54
+		ADDED from C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:11:9-54
 	tools:targetApi
-		ADDED from /home/najae/StudioProjects/Tap2Tell/app/src/main/AndroidManifest.xml:14:9-29
+		ADDED from C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:14:9-29
 	android:icon
-		ADDED from /home/najae/StudioProjects/Tap2Tell/app/src/main/AndroidManifest.xml:9:9-43
+		ADDED from C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:9:9-43
 	android:allowBackup
-		ADDED from /home/najae/StudioProjects/Tap2Tell/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from /home/najae/StudioProjects/Tap2Tell/app/src/main/AndroidManifest.xml:13:9-46
+		ADDED from C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:13:9-46
 	android:dataExtractionRules
-		ADDED from /home/najae/StudioProjects/Tap2Tell/app/src/main/AndroidManifest.xml:7:9-65
+		ADDED from C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:7:9-65
 activity#com.example.tap2tell.LoginActivity
-ADDED from /home/najae/StudioProjects/Tap2Tell/app/src/main/AndroidManifest.xml:15:9-22:20
+ADDED from C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:17:9-24:20
 	android:exported
-		ADDED from /home/najae/StudioProjects/Tap2Tell/app/src/main/AndroidManifest.xml:17:13-36
+		ADDED from C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:19:13-36
 	android:name
-		ADDED from /home/najae/StudioProjects/Tap2Tell/app/src/main/AndroidManifest.xml:16:13-42
+		ADDED from C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:18:13-42
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/najae/StudioProjects/Tap2Tell/app/src/main/AndroidManifest.xml:18:17-21:33
+ADDED from C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:20:13-23:29
 action#android.intent.action.MAIN
-ADDED from /home/najae/StudioProjects/Tap2Tell/app/src/main/AndroidManifest.xml:19:21-73
+ADDED from C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:21:17-68
 	android:name
-		ADDED from /home/najae/StudioProjects/Tap2Tell/app/src/main/AndroidManifest.xml:19:29-70
+		ADDED from C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:21:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/najae/StudioProjects/Tap2Tell/app/src/main/AndroidManifest.xml:20:21-81
+ADDED from C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:22:17-76
 	android:name
-		ADDED from /home/najae/StudioProjects/Tap2Tell/app/src/main/AndroidManifest.xml:20:31-78
+		ADDED from C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:22:27-74
+activity#com.example.tap2tell.DashboardActivity
+ADDED from C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:27:9-29:40
+	android:exported
+		ADDED from C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:28:13-46
 activity#com.example.tap2tell.SignUpActivity
-ADDED from /home/najae/StudioProjects/Tap2Tell/app/src/main/AndroidManifest.xml:24:9-26:40
+ADDED from C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:32:9-34:40
 	android:exported
-		ADDED from /home/najae/StudioProjects/Tap2Tell/app/src/main/AndroidManifest.xml:26:13-37
+		ADDED from C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:34:13-37
 	android:name
-		ADDED from /home/najae/StudioProjects/Tap2Tell/app/src/main/AndroidManifest.xml:25:13-43
+		ADDED from C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:33:13-43
 activity#com.example.tap2tell.MainActivity
-ADDED from /home/najae/StudioProjects/Tap2Tell/app/src/main/AndroidManifest.xml:27:9-31:20
+ADDED from C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:37:9-39:39
 	android:exported
-		ADDED from /home/najae/StudioProjects/Tap2Tell/app/src/main/AndroidManifest.xml:29:13-36
+		ADDED from C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:39:13-36
 	android:name
-		ADDED from /home/najae/StudioProjects/Tap2Tell/app/src/main/AndroidManifest.xml:28:13-41
+		ADDED from C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:38:13-41
+activity#com.example.tap2tell.chat
+ADDED from C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:42:9-44:40
+	android:exported
+		ADDED from C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:44:13-37
+	android:name
+		ADDED from C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:43:13-33
+activity#com.example.tap2tell.Symptoms
+ADDED from C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:47:9-49:40
+	android:exported
+		ADDED from C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:49:13-37
+	android:name
+		ADDED from C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:48:13-37
+activity#com.example.tap2tell.AdminApprovalActivity
+ADDED from C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:50:9-59
+	android:name
+		ADDED from C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:50:19-56
+activity#com.example.tap2tell.providerinfo.userdetails
+ADDED from C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:51:9-82
+	android:name
+		ADDED from C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:51:19-79
+activity#com.example.tap2tell.providerinfo.Providersignin
+ADDED from C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:52:9-65
+	android:name
+		ADDED from C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:52:19-62
+activity#com.example.tap2tell.providerinfo.providerdashboard
+ADDED from C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:53:9-88
+	android:name
+		ADDED from C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:53:19-85
+activity#com.example.tap2tell.providerinfo.providerchat
+ADDED from C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:54:9-63
+	android:name
+		ADDED from C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:54:19-60
+activity#com.example.tap2tell.Aiactivity
+ADDED from C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:55:9-48
+	android:name
+		ADDED from C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:55:19-45
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:63:5-67
+MERGED from [com.google.firebase:firebase-crashlytics:18.6.0] C:\Users\fortu\caches\transforms-3\63725a07ea33aea88d62dfe44684b325\transformed\jetified-firebase-crashlytics-18.6.0\AndroidManifest.xml:7:5-67
+MERGED from [com.google.firebase:firebase-crashlytics:18.6.0] C:\Users\fortu\caches\transforms-3\63725a07ea33aea88d62dfe44684b325\transformed\jetified-firebase-crashlytics-18.6.0\AndroidManifest.xml:7:5-67
+MERGED from [com.google.firebase:firebase-database:20.3.0] C:\Users\fortu\caches\transforms-3\8ee02e975cad74e108861bce6402d81b\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-database:20.3.0] C:\Users\fortu\caches\transforms-3\8ee02e975cad74e108861bce6402d81b\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\fortu\caches\transforms-3\79cdcb40a39d7e1c402283af9cf001eb\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\fortu\caches\transforms-3\79cdcb40a39d7e1c402283af9cf001eb\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\fortu\caches\transforms-3\f408a8b3274e781cd23640ddea2bb53d\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\fortu\caches\transforms-3\f408a8b3274e781cd23640ddea2bb53d\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] C:\Users\fortu\caches\transforms-3\abe40760e2980f9ec8c8a55dda689deb\transformed\jetified-recaptcha-18.1.2\AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] C:\Users\fortu\caches\transforms-3\abe40760e2980f9ec8c8a55dda689deb\transformed\jetified-recaptcha-18.1.2\AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.gms:play-services-measurement:21.5.0] C:\Users\fortu\caches\transforms-3\0497a67f99ac56fb0e79703eb4bbbcae\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:21.5.0] C:\Users\fortu\caches\transforms-3\0497a67f99ac56fb0e79703eb4bbbcae\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.5.0] C:\Users\fortu\caches\transforms-3\ecca54ba2aa9837fa5ce0694f9754403\transformed\jetified-play-services-measurement-impl-21.5.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.5.0] C:\Users\fortu\caches\transforms-3\ecca54ba2aa9837fa5ce0694f9754403\transformed\jetified-play-services-measurement-impl-21.5.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.5.0] C:\Users\fortu\caches\transforms-3\c817e3ecb12f371cd6781442d5f7caeb\transformed\jetified-play-services-measurement-sdk-api-21.5.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.5.0] C:\Users\fortu\caches\transforms-3\c817e3ecb12f371cd6781442d5f7caeb\transformed\jetified-play-services-measurement-sdk-api-21.5.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\fortu\caches\transforms-3\33b240c181c7da5e3df44bf0d03181fa\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\fortu\caches\transforms-3\33b240c181c7da5e3df44bf0d03181fa\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:25:5-67
+	android:name
+		ADDED from C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml:63:22-64
 uses-sdk
-INJECTED from /home/najae/StudioProjects/Tap2Tell/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/najae/StudioProjects/Tap2Tell/app/src/main/AndroidManifest.xml
-INJECTED from /home/najae/StudioProjects/Tap2Tell/app/src/main/AndroidManifest.xml
-MERGED from [com.google.android.material:material:1.11.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/2af963622e35499beece93c79cb9dab2/transformed/material-1.11.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.11.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/2af963622e35499beece93c79cb9dab2/transformed/material-1.11.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/najae/.gradle/caches/9.0-milestone-1/transforms/213dda7a757dd5ca0fb0b1fcb4aa4815/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/najae/.gradle/caches/9.0-milestone-1/transforms/213dda7a757dd5ca0fb0b1fcb4aa4815/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/najae/.gradle/caches/9.0-milestone-1/transforms/54004271ff1060622c294cb33b31c0ea/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/najae/.gradle/caches/9.0-milestone-1/transforms/54004271ff1060622c294cb33b31c0ea/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.6.1] /home/najae/.gradle/caches/9.0-milestone-1/transforms/bd93164e81ea9b3b16fcd17b7356161d/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.6.1] /home/najae/.gradle/caches/9.0-milestone-1/transforms/bd93164e81ea9b3b16fcd17b7356161d/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/87b7d8352239bf7d41e145fcd87afceb/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/87b7d8352239bf7d41e145fcd87afceb/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.3.6] /home/najae/.gradle/caches/9.0-milestone-1/transforms/81403957f60f54530f89c4dd47281b6b/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.3.6] /home/najae/.gradle/caches/9.0-milestone-1/transforms/81403957f60f54530f89c4dd47281b6b/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.8.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/6026ff17b3dfb12cc0f707c3fadcdf33/transformed/jetified-activity-1.8.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.8.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/6026ff17b3dfb12cc0f707c3fadcdf33/transformed/jetified-activity-1.8.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core-ktx:1.12.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/24bdbf6a7a584c970d1ae8b168ec43ff/transformed/jetified-core-ktx-1.12.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.core:core-ktx:1.12.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/24bdbf6a7a584c970d1ae8b168ec43ff/transformed/jetified-core-ktx-1.12.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/fe4a1005c9024734b03899050ba5b30a/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/fe4a1005c9024734b03899050ba5b30a/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.emoji2:emoji2:1.2.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/486974f4b329ab9d6def334df8318558/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.emoji2:emoji2:1.2.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/486974f4b329ab9d6def334df8318558/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/najae/.gradle/caches/9.0-milestone-1/transforms/bcd411d87fef7a03f542a3d3754b9cb8/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/najae/.gradle/caches/9.0-milestone-1/transforms/bcd411d87fef7a03f542a3d3754b9cb8/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/9fc415c7d5af1b1bdf8461489b843d07/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/9fc415c7d5af1b1bdf8461489b843d07/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/14fa77a1212d781786d8fcc71f5fbac7/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/14fa77a1212d781786d8fcc71f5fbac7/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.transition:transition:1.2.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/c06a78989946db641c1846da9ee8da20/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.2.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/c06a78989946db641c1846da9ee8da20/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/fbed4a4514c9ff917df1198258da4461/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/fbed4a4514c9ff917df1198258da4461/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/564af04b75db8f9af290c48daa68572c/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/564af04b75db8f9af290c48daa68572c/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager:viewpager:1.0.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/2e967eaed9baae1d3b728389594c95a4/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/2e967eaed9baae1d3b728389594c95a4/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/7713e427cb0573636b6eeefc1f2350f0/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/7713e427cb0573636b6eeefc1f2350f0/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/50796f863f5e72cbc00b7c7f16745a1a/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/50796f863f5e72cbc00b7c7f16745a1a/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/abb191e524642cda0f374a74281c90a2/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/abb191e524642cda0f374a74281c90a2/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.1.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/990af9dc354a9bdbe1d5d41f08925577/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.1.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/990af9dc354a9bdbe1d5d41f08925577/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.12.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/bdd75cd663a32ba54d63630ce06f9220/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.12.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/bdd75cd663a32ba54d63630ce06f9220/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.2.1] /home/najae/.gradle/caches/9.0-milestone-1/transforms/bceceda348bc27721e3192819c858085/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.2.1] /home/najae/.gradle/caches/9.0-milestone-1/transforms/bceceda348bc27721e3192819c858085/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /home/najae/.gradle/caches/9.0-milestone-1/transforms/bd2766e2f53fb2df8593909f7c9e9c05/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:21:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /home/najae/.gradle/caches/9.0-milestone-1/transforms/bd2766e2f53fb2df8593909f7c9e9c05/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:21:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /home/najae/.gradle/caches/9.0-milestone-1/transforms/96834299a88593974237ebd34cec9dc4/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /home/najae/.gradle/caches/9.0-milestone-1/transforms/96834299a88593974237ebd34cec9dc4/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /home/najae/.gradle/caches/9.0-milestone-1/transforms/5d672837e4852128dc75e97ca09db33a/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /home/najae/.gradle/caches/9.0-milestone-1/transforms/5d672837e4852128dc75e97ca09db33a/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /home/najae/.gradle/caches/9.0-milestone-1/transforms/4e2cafd2e31db64f94e878020a56cb52/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /home/najae/.gradle/caches/9.0-milestone-1/transforms/4e2cafd2e31db64f94e878020a56cb52/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /home/najae/.gradle/caches/9.0-milestone-1/transforms/7f82e5387aff7763411b36c93cec6ed2/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /home/najae/.gradle/caches/9.0-milestone-1/transforms/7f82e5387aff7763411b36c93cec6ed2/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /home/najae/.gradle/caches/9.0-milestone-1/transforms/a0ec2c2e1b82144b85c68bad392aa4c0/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /home/najae/.gradle/caches/9.0-milestone-1/transforms/a0ec2c2e1b82144b85c68bad392aa4c0/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/2bad2f09568b1b36b3b390eafca06111/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/2bad2f09568b1b36b3b390eafca06111/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/c208628d387463215c4c57f44d341231/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/c208628d387463215c4c57f44d341231/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/38f7b9ff19015ad8b90d02779d2ce37f/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/38f7b9ff19015ad8b90d02779d2ce37f/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/1ff9ca3aa6bcf07d6a2bf39c25edb734/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/1ff9ca3aa6bcf07d6a2bf39c25edb734/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/najae/.gradle/caches/9.0-milestone-1/transforms/807c8e53f43da1fdf166f2985c328a6a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/najae/.gradle/caches/9.0-milestone-1/transforms/807c8e53f43da1fdf166f2985c328a6a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/b833a8aa1f9fdeef8fd14069d153906a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/b833a8aa1f9fdeef8fd14069d153906a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.startup:startup-runtime:1.1.1] /home/najae/.gradle/caches/9.0-milestone-1/transforms/a678665351d86b292e18175335837d7e/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.startup:startup-runtime:1.1.1] /home/najae/.gradle/caches/9.0-milestone-1/transforms/a678665351d86b292e18175335837d7e/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.tracing:tracing:1.0.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/959937ba85d82226201a58ff6080a779/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/959937ba85d82226201a58ff6080a779/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/95aa70531f26712c3fde722f7f6b1576/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/95aa70531f26712c3fde722f7f6b1576/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/b5edcb842e67d29f8e82750794e512e3/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/b5edcb842e67d29f8e82750794e512e3/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/f715441e927bae9170d7ed2271136cf3/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/f715441e927bae9170d7ed2271136cf3/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/f6ba76749392a6f8263bb2f839c7c54e/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/f6ba76749392a6f8263bb2f839c7c54e/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml
+MERGED from [com.google.firebase:firebase-crashlytics-ktx:18.6.0] C:\Users\fortu\caches\transforms-3\2a8506b8fb66444c70c100a55fef210d\transformed\jetified-firebase-crashlytics-ktx-18.6.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-crashlytics-ktx:18.6.0] C:\Users\fortu\caches\transforms-3\2a8506b8fb66444c70c100a55fef210d\transformed\jetified-firebase-crashlytics-ktx-18.6.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-database-ktx:20.3.0] C:\Users\fortu\caches\transforms-3\a6535b1bd8fa85f8aebba59e8f409297\transformed\jetified-firebase-database-ktx-20.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-ktx:20.3.0] C:\Users\fortu\caches\transforms-3\a6535b1bd8fa85f8aebba59e8f409297\transformed\jetified-firebase-database-ktx-20.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] C:\Users\fortu\caches\transforms-3\eaa5bc2b81135ee2781abd6f97d9953a\transformed\jetified-room-ktx-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] C:\Users\fortu\caches\transforms-3\eaa5bc2b81135ee2781abd6f97d9953a\transformed\jetified-room-ktx-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\fortu\caches\transforms-3\14802347e0265a32ac9087c9d6faf60e\transformed\room-runtime-2.6.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\fortu\caches\transforms-3\14802347e0265a32ac9087c9d6faf60e\transformed\room-runtime-2.6.1\AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.5.0] C:\Users\fortu\caches\transforms-3\dd5deb464e535591216e2be992272b01\transformed\jetified-firebase-analytics-ktx-21.5.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.5.0] C:\Users\fortu\caches\transforms-3\dd5deb464e535591216e2be992272b01\transformed\jetified-firebase-analytics-ktx-21.5.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-ktx:22.3.0] C:\Users\fortu\caches\transforms-3\4c71732b25f48e13c642b86dc5883d2a\transformed\jetified-firebase-auth-ktx-22.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-ktx:22.3.0] C:\Users\fortu\caches\transforms-3\4c71732b25f48e13c642b86dc5883d2a\transformed\jetified-firebase-auth-ktx-22.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-crashlytics:18.6.0] C:\Users\fortu\caches\transforms-3\63725a07ea33aea88d62dfe44684b325\transformed\jetified-firebase-crashlytics-18.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-crashlytics:18.6.0] C:\Users\fortu\caches\transforms-3\63725a07ea33aea88d62dfe44684b325\transformed\jetified-firebase-crashlytics-18.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database:20.3.0] C:\Users\fortu\caches\transforms-3\8ee02e975cad74e108861bce6402d81b\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-database:20.3.0] C:\Users\fortu\caches\transforms-3\8ee02e975cad74e108861bce6402d81b\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:21:5-23:64
+MERGED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:21:5-23:64
+MERGED from [com.google.firebase:firebase-sessions:1.2.0] C:\Users\fortu\caches\transforms-3\aeb19ee1e8da160a7118c008487ca5cc\transformed\jetified-firebase-sessions-1.2.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-sessions:1.2.0] C:\Users\fortu\caches\transforms-3\aeb19ee1e8da160a7118c008487ca5cc\transformed\jetified-firebase-sessions-1.2.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-analytics:21.5.0] C:\Users\fortu\caches\transforms-3\47c9c29b8f6dce4cf6cea095ae86d8fa\transformed\jetified-firebase-analytics-21.5.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:21.5.0] C:\Users\fortu\caches\transforms-3\47c9c29b8f6dce4cf6cea095ae86d8fa\transformed\jetified-firebase-analytics-21.5.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\fortu\caches\transforms-3\79cdcb40a39d7e1c402283af9cf001eb\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\fortu\caches\transforms-3\79cdcb40a39d7e1c402283af9cf001eb\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\fortu\caches\transforms-3\f408a8b3274e781cd23640ddea2bb53d\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\fortu\caches\transforms-3\f408a8b3274e781cd23640ddea2bb53d\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\fortu\caches\transforms-3\d857893510eb3ce1d1e545777fe121a1\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\fortu\caches\transforms-3\d857893510eb3ce1d1e545777fe121a1\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\fortu\caches\transforms-3\ff27c2885ef64302fee83306d4a76a03\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\fortu\caches\transforms-3\ff27c2885ef64302fee83306d4a76a03\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\fortu\caches\transforms-3\322e7911774891daf99882ff68ef01a5\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\fortu\caches\transforms-3\322e7911774891daf99882ff68ef01a5\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:19:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] C:\Users\fortu\caches\transforms-3\abe40760e2980f9ec8c8a55dda689deb\transformed\jetified-recaptcha-18.1.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] C:\Users\fortu\caches\transforms-3\abe40760e2980f9ec8c8a55dda689deb\transformed\jetified-recaptcha-18.1.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] C:\Users\fortu\caches\transforms-3\ae24002e953eb8c34d8211820ceda96c\transformed\jetified-datastore-preferences-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] C:\Users\fortu\caches\transforms-3\ae24002e953eb8c34d8211820ceda96c\transformed\jetified-datastore-preferences-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore:1.0.0] C:\Users\fortu\caches\transforms-3\0700ddd7d25bdc480bfcaa215ef0cc1d\transformed\jetified-datastore-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore:1.0.0] C:\Users\fortu\caches\transforms-3\0700ddd7d25bdc480bfcaa215ef0cc1d\transformed\jetified-datastore-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-measurement:21.5.0] C:\Users\fortu\caches\transforms-3\0497a67f99ac56fb0e79703eb4bbbcae\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:21.5.0] C:\Users\fortu\caches\transforms-3\0497a67f99ac56fb0e79703eb4bbbcae\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.5.0] C:\Users\fortu\caches\transforms-3\b4e46b65045d3edde3489086d662eeb6\transformed\jetified-play-services-measurement-sdk-21.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.5.0] C:\Users\fortu\caches\transforms-3\b4e46b65045d3edde3489086d662eeb6\transformed\jetified-play-services-measurement-sdk-21.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.5.0] C:\Users\fortu\caches\transforms-3\ecca54ba2aa9837fa5ce0694f9754403\transformed\jetified-play-services-measurement-impl-21.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.5.0] C:\Users\fortu\caches\transforms-3\ecca54ba2aa9837fa5ce0694f9754403\transformed\jetified-play-services-measurement-impl-21.5.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.0.0-beta05] C:\Users\fortu\caches\transforms-3\e7420567044fba7f0b3c6ae6e523c8d8\transformed\jetified-ads-adservices-java-1.0.0-beta05\AndroidManifest.xml:5:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.0.0-beta05] C:\Users\fortu\caches\transforms-3\e7420567044fba7f0b3c6ae6e523c8d8\transformed\jetified-ads-adservices-java-1.0.0-beta05\AndroidManifest.xml:5:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\fortu\caches\transforms-3\693aca8fee0d62c0589bb5215552a0a2\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:20:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\fortu\caches\transforms-3\693aca8fee0d62c0589bb5215552a0a2\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\fortu\caches\transforms-3\dc433f3190cd8837855c19c2aaa998ad\transformed\material-1.11.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\fortu\caches\transforms-3\dc433f3190cd8837855c19c2aaa998ad\transformed\material-1.11.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\fortu\caches\transforms-3\43b63a61afe6d3acfc2590b06ffdd3ec\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\fortu\caches\transforms-3\43b63a61afe6d3acfc2590b06ffdd3ec\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\fortu\caches\transforms-3\b6f9becd28b35a3b46d5b685ce21c066\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\fortu\caches\transforms-3\b6f9becd28b35a3b46d5b685ce21c066\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\fortu\caches\transforms-3\9eb9ecc8e557ba8901057ba11a076505\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\fortu\caches\transforms-3\9eb9ecc8e557ba8901057ba11a076505\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\fortu\caches\transforms-3\b53399098058b2ac790a2971e66b6fea\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\fortu\caches\transforms-3\b53399098058b2ac790a2971e66b6fea\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\fortu\caches\transforms-3\3f82e8d8045edaaec07d6e0b9b112a2d\transformed\jetified-firebase-appcheck-interop-17.1.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\fortu\caches\transforms-3\3f82e8d8045edaaec07d6e0b9b112a2d\transformed\jetified-firebase-appcheck-interop-17.1.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\fortu\caches\transforms-3\722c0ae18dac79e663a38108ed9f93fc\transformed\jetified-firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\fortu\caches\transforms-3\722c0ae18dac79e663a38108ed9f93fc\transformed\jetified-firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\fortu\caches\transforms-3\105338a74a3ba17ceeeaa443a7dafa98\transformed\jetified-play-services-auth-api-phone-17.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\fortu\caches\transforms-3\105338a74a3ba17ceeeaa443a7dafa98\transformed\jetified-play-services-auth-api-phone-17.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\fortu\caches\transforms-3\0818b56498c05772ce60afecdac91b6a\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\fortu\caches\transforms-3\0818b56498c05772ce60afecdac91b6a\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.play:integrity:1.1.0] C:\Users\fortu\caches\transforms-3\caeea4ece04e7dce09ba3d1765785fb6\transformed\jetified-integrity-1.1.0\AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.play:integrity:1.1.0] C:\Users\fortu\caches\transforms-3\caeea4ece04e7dce09ba3d1765785fb6\transformed\jetified-integrity-1.1.0\AndroidManifest.xml:4:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] C:\Users\fortu\caches\transforms-3\868a557cae1a4ba5d36f87e55b0d1f34\transformed\jetified-firebase-installations-interop-17.1.1\AndroidManifest.xml:17:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] C:\Users\fortu\caches\transforms-3\868a557cae1a4ba5d36f87e55b0d1f34\transformed\jetified-firebase-installations-interop-17.1.1\AndroidManifest.xml:17:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\fortu\caches\transforms-3\10c136c1a9bde9cc517d7dbb70adf4e7\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\fortu\caches\transforms-3\10c136c1a9bde9cc517d7dbb70adf4e7\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\fortu\caches\transforms-3\f8f76238f862ee3d729154e560757e2b\transformed\jetified-play-services-ads-identifier-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\fortu\caches\transforms-3\f8f76238f862ee3d729154e560757e2b\transformed\jetified-play-services-ads-identifier-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.5.0] C:\Users\fortu\caches\transforms-3\c817e3ecb12f371cd6781442d5f7caeb\transformed\jetified-play-services-measurement-sdk-api-21.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.5.0] C:\Users\fortu\caches\transforms-3\c817e3ecb12f371cd6781442d5f7caeb\transformed\jetified-play-services-measurement-sdk-api-21.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:21.5.0] C:\Users\fortu\caches\transforms-3\83a2a4ce6a5af8eb609177e72cc8da95\transformed\jetified-play-services-measurement-base-21.5.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:21.5.0] C:\Users\fortu\caches\transforms-3\83a2a4ce6a5af8eb609177e72cc8da95\transformed\jetified-play-services-measurement-base-21.5.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\fortu\caches\transforms-3\16c7e24fb331ddb9440320875e7b224a\transformed\jetified-play-services-stats-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\fortu\caches\transforms-3\16c7e24fb331ddb9440320875e7b224a\transformed\jetified-play-services-stats-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\fortu\caches\transforms-3\f892ecb0270c26593cad784f2aa621da\transformed\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\fortu\caches\transforms-3\f892ecb0270c26593cad784f2aa621da\transformed\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\fortu\caches\transforms-3\6c1332faead9c2cf3ed544ba3be0bf62\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\fortu\caches\transforms-3\6c1332faead9c2cf3ed544ba3be0bf62\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\fortu\caches\transforms-3\4ac9f1ee53234c8a197b8b2c956fdf8c\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\fortu\caches\transforms-3\4ac9f1ee53234c8a197b8b2c956fdf8c\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\fortu\caches\transforms-3\3478d4a51e5e02c54cff590edd1d2e3f\transformed\jetified-activity-1.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\fortu\caches\transforms-3\3478d4a51e5e02c54cff590edd1d2e3f\transformed\jetified-activity-1.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\fortu\caches\transforms-3\8faee64423818ad182cc38624c2d11d1\transformed\jetified-core-ktx-1.12.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\fortu\caches\transforms-3\8faee64423818ad182cc38624c2d11d1\transformed\jetified-core-ktx-1.12.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\fortu\caches\transforms-3\f04b2172ba4a4c83d681618367df2db3\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\fortu\caches\transforms-3\f04b2172ba4a4c83d681618367df2db3\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\fortu\caches\transforms-3\f58ff2112c5f1664b70001ad2e12a684\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\fortu\caches\transforms-3\f58ff2112c5f1664b70001ad2e12a684\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\fortu\caches\transforms-3\97bbd9b51a0719cbcb932f3e4e85ebfb\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\fortu\caches\transforms-3\97bbd9b51a0719cbcb932f3e4e85ebfb\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\fortu\caches\transforms-3\5c78aa0f2b190013c112deff8888b4dc\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\fortu\caches\transforms-3\5c78aa0f2b190013c112deff8888b4dc\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\fortu\caches\transforms-3\20aac533d734338f5ec82b14b41813ca\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\fortu\caches\transforms-3\20aac533d734338f5ec82b14b41813ca\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\fortu\caches\transforms-3\c636d86a64d2db6b3abeedf0a0081aa3\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\fortu\caches\transforms-3\c636d86a64d2db6b3abeedf0a0081aa3\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\fortu\caches\transforms-3\c8127e12d3d365d817b401ff25cf80f8\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\fortu\caches\transforms-3\c8127e12d3d365d817b401ff25cf80f8\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\fortu\caches\transforms-3\f1af61a637ccb90069d99b5f96e60f40\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\fortu\caches\transforms-3\f1af61a637ccb90069d99b5f96e60f40\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\fortu\caches\transforms-3\44d324f8735eda9fd3b195f0f2ee15ae\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\fortu\caches\transforms-3\44d324f8735eda9fd3b195f0f2ee15ae\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\fortu\caches\transforms-3\8bdbe7dac4a391c630f9cafb9734f62a\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\fortu\caches\transforms-3\8bdbe7dac4a391c630f9cafb9734f62a\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\fortu\caches\transforms-3\6812572707dda0d90d63e0298cb3bfa3\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\fortu\caches\transforms-3\6812572707dda0d90d63e0298cb3bfa3\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\fortu\caches\transforms-3\da6db20f118e025551e2772a22f40bd7\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\fortu\caches\transforms-3\da6db20f118e025551e2772a22f40bd7\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\fortu\caches\transforms-3\ff4b35b79f82b7d38cc42ac87a6916c3\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\fortu\caches\transforms-3\ff4b35b79f82b7d38cc42ac87a6916c3\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\fortu\caches\transforms-3\70ef8e7e739a004f1b1c759e61332e6c\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\fortu\caches\transforms-3\70ef8e7e739a004f1b1c759e61332e6c\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.12.0] C:\Users\fortu\caches\transforms-3\65c34b469c8b6c887310c558ac7d04ef\transformed\core-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] C:\Users\fortu\caches\transforms-3\65c34b469c8b6c887310c558ac7d04ef\transformed\core-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\fortu\caches\transforms-3\ee8466c44d549448f8c76dffdf823bb3\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\fortu\caches\transforms-3\ee8466c44d549448f8c76dffdf823bb3\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\fortu\caches\transforms-3\94ec4a03db3e75ed0c8e544863d3a455\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\fortu\caches\transforms-3\94ec4a03db3e75ed0c8e544863d3a455\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] C:\Users\fortu\caches\transforms-3\92576ee5b4c8c8d373c46b0efd6d3ac3\transformed\lifecycle-livedata-core-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] C:\Users\fortu\caches\transforms-3\92576ee5b4c8c8d373c46b0efd6d3ac3\transformed\lifecycle-livedata-core-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] C:\Users\fortu\caches\transforms-3\3e099968fe08821d3674b4c762e90922\transformed\lifecycle-livedata-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] C:\Users\fortu\caches\transforms-3\3e099968fe08821d3674b4c762e90922\transformed\lifecycle-livedata-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] C:\Users\fortu\caches\transforms-3\3865871165d1cf0be90d772966e1f1f1\transformed\lifecycle-viewmodel-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] C:\Users\fortu\caches\transforms-3\3865871165d1cf0be90d772966e1f1f1\transformed\lifecycle-viewmodel-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] C:\Users\fortu\caches\transforms-3\fceaafaae51e1c6464d8c3641b7bb3cb\transformed\lifecycle-runtime-2.6.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] C:\Users\fortu\caches\transforms-3\fceaafaae51e1c6464d8c3641b7bb3cb\transformed\lifecycle-runtime-2.6.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] C:\Users\fortu\caches\transforms-3\231397d4c5caf2782fe2531d9dfcee43\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] C:\Users\fortu\caches\transforms-3\231397d4c5caf2782fe2531d9dfcee43\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-config-interop:16.0.0] C:\Users\fortu\caches\transforms-3\5aba14cf8d4a6319f6bdc6263fe73cd4\transformed\jetified-firebase-config-interop-16.0.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-config-interop:16.0.0] C:\Users\fortu\caches\transforms-3\5aba14cf8d4a6319f6bdc6263fe73cd4\transformed\jetified-firebase-config-interop-16.0.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-datatransport:18.1.8] C:\Users\fortu\caches\transforms-3\b3fdd3acfd01a511e24ceaa400180773\transformed\jetified-firebase-datatransport-18.1.8\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-datatransport:18.1.8] C:\Users\fortu\caches\transforms-3\b3fdd3acfd01a511e24ceaa400180773\transformed\jetified-firebase-datatransport-18.1.8\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\fortu\caches\transforms-3\33b240c181c7da5e3df44bf0d03181fa\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\fortu\caches\transforms-3\33b240c181c7da5e3df44bf0d03181fa\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.1] C:\Users\fortu\caches\transforms-3\995d0ef258da299aca51ba2584ea13e9\transformed\jetified-firebase-encoders-json-18.0.1\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.1] C:\Users\fortu\caches\transforms-3\995d0ef258da299aca51ba2584ea13e9\transformed\jetified-firebase-encoders-json-18.0.1\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\fortu\caches\transforms-3\165a56120583e83f4941933b63ddccf7\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\fortu\caches\transforms-3\165a56120583e83f4941933b63ddccf7\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:18:5-20:41
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\fortu\caches\transforms-3\b63f73d4d043a009bedf5f0680044ec0\transformed\sqlite-framework-2.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\fortu\caches\transforms-3\b63f73d4d043a009bedf5f0680044ec0\transformed\sqlite-framework-2.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\fortu\caches\transforms-3\8621524023c0ca71b083189bea736d36\transformed\sqlite-2.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\fortu\caches\transforms-3\8621524023c0ca71b083189bea736d36\transformed\sqlite-2.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\fortu\caches\transforms-3\20c11e49366d8f60946444a22c9b2300\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\fortu\caches\transforms-3\20c11e49366d8f60946444a22c9b2300\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\fortu\caches\transforms-3\2d4056ae1b47f6255dd8f41e5b3921ba\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\fortu\caches\transforms-3\2d4056ae1b47f6255dd8f41e5b3921ba\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\fortu\caches\transforms-3\8cf63e964194e76dbc985df37ab5d75d\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\fortu\caches\transforms-3\8cf63e964194e76dbc985df37ab5d75d\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\fortu\caches\transforms-3\28552d6a66e4e2c841e0d81647239c7e\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\fortu\caches\transforms-3\28552d6a66e4e2c841e0d81647239c7e\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:17.1.5] C:\Users\fortu\caches\transforms-3\b4c286c478bfd3be4e52d48bed55c2ed\transformed\jetified-firebase-components-17.1.5\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-components:17.1.5] C:\Users\fortu\caches\transforms-3\b4c286c478bfd3be4e52d48bed55c2ed\transformed\jetified-firebase-components-17.1.5\AndroidManifest.xml:18:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\fortu\caches\transforms-3\c0b92c9d41124b4ba888edbf7e8b6a65\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\fortu\caches\transforms-3\c0b92c9d41124b4ba888edbf7e8b6a65\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\fortu\caches\transforms-3\f45ca853a93f4f40026defc2d767850d\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\fortu\caches\transforms-3\f45ca853a93f4f40026defc2d767850d\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\fortu\caches\transforms-3\f846e8830df8a32902176efd85c449e4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\fortu\caches\transforms-3\f846e8830df8a32902176efd85c449e4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\fortu\caches\transforms-3\6945662b77f13fce7785ac444c0ad8fa\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\fortu\caches\transforms-3\6945662b77f13fce7785ac444c0ad8fa\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\fortu\caches\transforms-3\debee781dfb0c62cfb4bf848ca704812\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\fortu\caches\transforms-3\debee781dfb0c62cfb4bf848ca704812\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] C:\Users\fortu\caches\transforms-3\dd11a71750d72d92cb70928330f4002d\transformed\jetified-transport-api-3.0.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] C:\Users\fortu\caches\transforms-3\dd11a71750d72d92cb70928330f4002d\transformed\jetified-transport-api-3.0.0\AndroidManifest.xml:18:5-20:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\fortu\caches\transforms-3\9442074d62ef8500d33c9daa4320a35a\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\fortu\caches\transforms-3\9442074d62ef8500d33c9daa4320a35a\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\fortu\caches\transforms-3\398e89959cab2722eda8f97de3dd43e5\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\fortu\caches\transforms-3\398e89959cab2722eda8f97de3dd43e5\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\fortu\caches\transforms-3\c18035cd44bdbd8e96ae9383979cd114\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\fortu\caches\transforms-3\c18035cd44bdbd8e96ae9383979cd114\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+	tools:overrideLibrary
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:23:9-61
 	android:targetSdkVersion
-		INJECTED from /home/najae/StudioProjects/Tap2Tell/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/najae/StudioProjects/Tap2Tell/app/src/main/AndroidManifest.xml
-provider#androidx.startup.InitializationProvider
-ADDED from [androidx.emoji2:emoji2:1.2.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/486974f4b329ab9d6def334df8318558/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /home/najae/.gradle/caches/9.0-milestone-1/transforms/bd2766e2f53fb2df8593909f7c9e9c05/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /home/najae/.gradle/caches/9.0-milestone-1/transforms/bd2766e2f53fb2df8593909f7c9e9c05/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/b833a8aa1f9fdeef8fd14069d153906a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/b833a8aa1f9fdeef8fd14069d153906a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.startup:startup-runtime:1.1.1] /home/najae/.gradle/caches/9.0-milestone-1/transforms/a678665351d86b292e18175335837d7e/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
-MERGED from [androidx.startup:startup-runtime:1.1.1] /home/najae/.gradle/caches/9.0-milestone-1/transforms/a678665351d86b292e18175335837d7e/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
-	tools:node
-		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/486974f4b329ab9d6def334df8318558/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:28:13-31
-	android:authorities
-		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/486974f4b329ab9d6def334df8318558/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+		INJECTED from C:\Users\fortu\AndroidStudioProjects\Tap2Tell-Interactive-Symptom-Report\app\src\main\AndroidManifest.xml
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-crashlytics-ktx:18.6.0] C:\Users\fortu\caches\transforms-3\2a8506b8fb66444c70c100a55fef210d\transformed\jetified-firebase-crashlytics-ktx-18.6.0\AndroidManifest.xml:21:9-27:19
+MERGED from [com.google.firebase:firebase-database-ktx:20.3.0] C:\Users\fortu\caches\transforms-3\a6535b1bd8fa85f8aebba59e8f409297\transformed\jetified-firebase-database-ktx-20.3.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-database-ktx:20.3.0] C:\Users\fortu\caches\transforms-3\a6535b1bd8fa85f8aebba59e8f409297\transformed\jetified-firebase-database-ktx-20.3.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.5.0] C:\Users\fortu\caches\transforms-3\dd5deb464e535591216e2be992272b01\transformed\jetified-firebase-analytics-ktx-21.5.0\AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.5.0] C:\Users\fortu\caches\transforms-3\dd5deb464e535591216e2be992272b01\transformed\jetified-firebase-analytics-ktx-21.5.0\AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.firebase:firebase-auth-ktx:22.3.0] C:\Users\fortu\caches\transforms-3\4c71732b25f48e13c642b86dc5883d2a\transformed\jetified-firebase-auth-ktx-22.3.0\AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.firebase:firebase-auth-ktx:22.3.0] C:\Users\fortu\caches\transforms-3\4c71732b25f48e13c642b86dc5883d2a\transformed\jetified-firebase-auth-ktx-22.3.0\AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.firebase:firebase-crashlytics:18.6.0] C:\Users\fortu\caches\transforms-3\63725a07ea33aea88d62dfe44684b325\transformed\jetified-firebase-crashlytics-18.6.0\AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-crashlytics:18.6.0] C:\Users\fortu\caches\transforms-3\63725a07ea33aea88d62dfe44684b325\transformed\jetified-firebase-crashlytics-18.6.0\AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-database:20.3.0] C:\Users\fortu\caches\transforms-3\8ee02e975cad74e108861bce6402d81b\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:26:9-35:19
+MERGED from [com.google.firebase:firebase-database:20.3.0] C:\Users\fortu\caches\transforms-3\8ee02e975cad74e108861bce6402d81b\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:26:9-35:19
+MERGED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-sessions:1.2.0] C:\Users\fortu\caches\transforms-3\aeb19ee1e8da160a7118c008487ca5cc\transformed\jetified-firebase-sessions-1.2.0\AndroidManifest.xml:26:9-32:19
+MERGED from [com.google.firebase:firebase-sessions:1.2.0] C:\Users\fortu\caches\transforms-3\aeb19ee1e8da160a7118c008487ca5cc\transformed\jetified-firebase-sessions-1.2.0\AndroidManifest.xml:26:9-32:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\fortu\caches\transforms-3\79cdcb40a39d7e1c402283af9cf001eb\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:34:9-40:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\fortu\caches\transforms-3\79cdcb40a39d7e1c402283af9cf001eb\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:34:9-40:19
+MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\fortu\caches\transforms-3\f408a8b3274e781cd23640ddea2bb53d\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\fortu\caches\transforms-3\f408a8b3274e781cd23640ddea2bb53d\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\fortu\caches\transforms-3\d857893510eb3ce1d1e545777fe121a1\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\fortu\caches\transforms-3\d857893510eb3ce1d1e545777fe121a1\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\fortu\caches\transforms-3\322e7911774891daf99882ff68ef01a5\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\fortu\caches\transforms-3\322e7911774891daf99882ff68ef01a5\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.8] C:\Users\fortu\caches\transforms-3\b3fdd3acfd01a511e24ceaa400180773\transformed\jetified-firebase-datatransport-18.1.8\AndroidManifest.xml:24:9-30:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.8] C:\Users\fortu\caches\transforms-3\b3fdd3acfd01a511e24ceaa400180773\transformed\jetified-firebase-datatransport-18.1.8\AndroidManifest.xml:24:9-30:19
 	android:exported
-		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/486974f4b329ab9d6def334df8318558/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
-	android:name
-		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/486974f4b329ab9d6def334df8318558/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
-meta-data#androidx.emoji2.text.EmojiCompatInitializer
-ADDED from [androidx.emoji2:emoji2:1.2.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/486974f4b329ab9d6def334df8318558/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
-	android:value
-		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/486974f4b329ab9d6def334df8318558/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
-	android:name
-		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/486974f4b329ab9d6def334df8318558/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.12.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/bdd75cd663a32ba54d63630ce06f9220/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
-	android:protectionLevel
-		ADDED from [androidx.core:core:1.12.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/bdd75cd663a32ba54d63630ce06f9220/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
-	android:name
-		ADDED from [androidx.core:core:1.12.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/bdd75cd663a32ba54d63630ce06f9220/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
-permission#com.example.tap2tell.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.12.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/bdd75cd663a32ba54d63630ce06f9220/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
-	android:protectionLevel
-		ADDED from [androidx.core:core:1.12.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/bdd75cd663a32ba54d63630ce06f9220/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
-	android:name
-		ADDED from [androidx.core:core:1.12.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/bdd75cd663a32ba54d63630ce06f9220/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
-uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.12.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/bdd75cd663a32ba54d63630ce06f9220/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
-	android:name
-		ADDED from [androidx.core:core:1.12.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/bdd75cd663a32ba54d63630ce06f9220/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
-uses-permission#com.example.tap2tell.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.12.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/bdd75cd663a32ba54d63630ce06f9220/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
-	android:name
-		ADDED from [androidx.core:core:1.12.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/bdd75cd663a32ba54d63630ce06f9220/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
-meta-data#androidx.lifecycle.ProcessLifecycleInitializer
-ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /home/najae/.gradle/caches/9.0-milestone-1/transforms/bd2766e2f53fb2df8593909f7c9e9c05/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
-	android:value
-		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /home/najae/.gradle/caches/9.0-milestone-1/transforms/bd2766e2f53fb2df8593909f7c9e9c05/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
-	android:name
-		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /home/najae/.gradle/caches/9.0-milestone-1/transforms/bd2766e2f53fb2df8593909f7c9e9c05/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
-meta-data#androidx.profileinstaller.ProfileInstallerInitializer
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/b833a8aa1f9fdeef8fd14069d153906a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
-	android:value
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/b833a8aa1f9fdeef8fd14069d153906a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
-	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/b833a8aa1f9fdeef8fd14069d153906a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
-receiver#androidx.profileinstaller.ProfileInstallReceiver
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/b833a8aa1f9fdeef8fd14069d153906a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
-	android:enabled
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/b833a8aa1f9fdeef8fd14069d153906a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
-	android:exported
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/b833a8aa1f9fdeef8fd14069d153906a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
-	android:permission
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/b833a8aa1f9fdeef8fd14069d153906a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+		ADDED from [com.google.firebase:firebase-crashlytics-ktx:18.6.0] C:\Users\fortu\caches\transforms-3\2a8506b8fb66444c70c100a55fef210d\transformed\jetified-firebase-crashlytics-ktx-18.6.0\AndroidManifest.xml:23:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\fortu\caches\transforms-3\322e7911774891daf99882ff68ef01a5\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:34:13-32
 	android:directBootAware
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/b833a8aa1f9fdeef8fd14069d153906a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\fortu\caches\transforms-3\322e7911774891daf99882ff68ef01a5\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:32:13-43
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/b833a8aa1f9fdeef8fd14069d153906a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+		ADDED from [com.google.firebase:firebase-crashlytics-ktx:18.6.0] C:\Users\fortu\caches\transforms-3\2a8506b8fb66444c70c100a55fef210d\transformed\jetified-firebase-crashlytics-ktx-18.6.0\AndroidManifest.xml:22:13-84
+meta-data#com.google.firebase.components:com.google.firebase.crashlytics.ktx.FirebaseCrashlyticsKtxRegistrar
+ADDED from [com.google.firebase:firebase-crashlytics-ktx:18.6.0] C:\Users\fortu\caches\transforms-3\2a8506b8fb66444c70c100a55fef210d\transformed\jetified-firebase-crashlytics-ktx-18.6.0\AndroidManifest.xml:24:13-26:85
+	android:value
+		ADDED from [com.google.firebase:firebase-crashlytics-ktx:18.6.0] C:\Users\fortu\caches\transforms-3\2a8506b8fb66444c70c100a55fef210d\transformed\jetified-firebase-crashlytics-ktx-18.6.0\AndroidManifest.xml:26:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-crashlytics-ktx:18.6.0] C:\Users\fortu\caches\transforms-3\2a8506b8fb66444c70c100a55fef210d\transformed\jetified-firebase-crashlytics-ktx-18.6.0\AndroidManifest.xml:25:17-130
+meta-data#com.google.firebase.components:com.google.firebase.database.ktx.FirebaseDatabaseLegacyRegistrar
+ADDED from [com.google.firebase:firebase-database-ktx:20.3.0] C:\Users\fortu\caches\transforms-3\a6535b1bd8fa85f8aebba59e8f409297\transformed\jetified-firebase-database-ktx-20.3.0\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database-ktx:20.3.0] C:\Users\fortu\caches\transforms-3\a6535b1bd8fa85f8aebba59e8f409297\transformed\jetified-firebase-database-ktx-20.3.0\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database-ktx:20.3.0] C:\Users\fortu\caches\transforms-3\a6535b1bd8fa85f8aebba59e8f409297\transformed\jetified-firebase-database-ktx-20.3.0\AndroidManifest.xml:13:17-127
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\fortu\caches\transforms-3\14802347e0265a32ac9087c9d6faf60e\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\fortu\caches\transforms-3\14802347e0265a32ac9087c9d6faf60e\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\fortu\caches\transforms-3\14802347e0265a32ac9087c9d6faf60e\transformed\room-runtime-2.6.1\AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\fortu\caches\transforms-3\14802347e0265a32ac9087c9d6faf60e\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\fortu\caches\transforms-3\14802347e0265a32ac9087c9d6faf60e\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+meta-data#com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsLegacyRegistrar
+ADDED from [com.google.firebase:firebase-analytics-ktx:21.5.0] C:\Users\fortu\caches\transforms-3\dd5deb464e535591216e2be992272b01\transformed\jetified-firebase-analytics-ktx-21.5.0\AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.firebase:firebase-analytics-ktx:21.5.0] C:\Users\fortu\caches\transforms-3\dd5deb464e535591216e2be992272b01\transformed\jetified-firebase-analytics-ktx-21.5.0\AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics-ktx:21.5.0] C:\Users\fortu\caches\transforms-3\dd5deb464e535591216e2be992272b01\transformed\jetified-firebase-analytics-ktx-21.5.0\AndroidManifest.xml:12:17-129
+meta-data#com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthLegacyRegistrar
+ADDED from [com.google.firebase:firebase-auth-ktx:22.3.0] C:\Users\fortu\caches\transforms-3\4c71732b25f48e13c642b86dc5883d2a\transformed\jetified-firebase-auth-ktx-22.3.0\AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth-ktx:22.3.0] C:\Users\fortu\caches\transforms-3\4c71732b25f48e13c642b86dc5883d2a\transformed\jetified-firebase-auth-ktx-22.3.0\AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth-ktx:22.3.0] C:\Users\fortu\caches\transforms-3\4c71732b25f48e13c642b86dc5883d2a\transformed\jetified-firebase-auth-ktx-22.3.0\AndroidManifest.xml:12:17-119
+meta-data#com.google.firebase.components:com.google.firebase.crashlytics.FirebaseCrashlyticsKtxRegistrar
+ADDED from [com.google.firebase:firebase-crashlytics:18.6.0] C:\Users\fortu\caches\transforms-3\63725a07ea33aea88d62dfe44684b325\transformed\jetified-firebase-crashlytics-18.6.0\AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-crashlytics:18.6.0] C:\Users\fortu\caches\transforms-3\63725a07ea33aea88d62dfe44684b325\transformed\jetified-firebase-crashlytics-18.6.0\AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-crashlytics:18.6.0] C:\Users\fortu\caches\transforms-3\63725a07ea33aea88d62dfe44684b325\transformed\jetified-firebase-crashlytics-18.6.0\AndroidManifest.xml:16:17-126
+meta-data#com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar
+ADDED from [com.google.firebase:firebase-crashlytics:18.6.0] C:\Users\fortu\caches\transforms-3\63725a07ea33aea88d62dfe44684b325\transformed\jetified-firebase-crashlytics-18.6.0\AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-crashlytics:18.6.0] C:\Users\fortu\caches\transforms-3\63725a07ea33aea88d62dfe44684b325\transformed\jetified-firebase-crashlytics-18.6.0\AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-crashlytics:18.6.0] C:\Users\fortu\caches\transforms-3\63725a07ea33aea88d62dfe44684b325\transformed\jetified-firebase-crashlytics-18.6.0\AndroidManifest.xml:19:17-115
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-database:20.3.0] C:\Users\fortu\caches\transforms-3\8ee02e975cad74e108861bce6402d81b\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\fortu\caches\transforms-3\79cdcb40a39d7e1c402283af9cf001eb\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\fortu\caches\transforms-3\79cdcb40a39d7e1c402283af9cf001eb\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\fortu\caches\transforms-3\f408a8b3274e781cd23640ddea2bb53d\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:7:5-79
+MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\fortu\caches\transforms-3\f408a8b3274e781cd23640ddea2bb53d\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] C:\Users\fortu\caches\transforms-3\abe40760e2980f9ec8c8a55dda689deb\transformed\jetified-recaptcha-18.1.2\AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] C:\Users\fortu\caches\transforms-3\abe40760e2980f9ec8c8a55dda689deb\transformed\jetified-recaptcha-18.1.2\AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.gms:play-services-measurement:21.5.0] C:\Users\fortu\caches\transforms-3\0497a67f99ac56fb0e79703eb4bbbcae\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:21.5.0] C:\Users\fortu\caches\transforms-3\0497a67f99ac56fb0e79703eb4bbbcae\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.5.0] C:\Users\fortu\caches\transforms-3\ecca54ba2aa9837fa5ce0694f9754403\transformed\jetified-play-services-measurement-impl-21.5.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.5.0] C:\Users\fortu\caches\transforms-3\ecca54ba2aa9837fa5ce0694f9754403\transformed\jetified-play-services-measurement-impl-21.5.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.5.0] C:\Users\fortu\caches\transforms-3\c817e3ecb12f371cd6781442d5f7caeb\transformed\jetified-play-services-measurement-sdk-api-21.5.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.5.0] C:\Users\fortu\caches\transforms-3\c817e3ecb12f371cd6781442d5f7caeb\transformed\jetified-play-services-measurement-sdk-api-21.5.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\fortu\caches\transforms-3\33b240c181c7da5e3df44bf0d03181fa\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\fortu\caches\transforms-3\33b240c181c7da5e3df44bf0d03181fa\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\fortu\caches\transforms-3\165a56120583e83f4941933b63ddccf7\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\fortu\caches\transforms-3\165a56120583e83f4941933b63ddccf7\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-database:20.3.0] C:\Users\fortu\caches\transforms-3\8ee02e975cad74e108861bce6402d81b\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:22:22-76
+meta-data#com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar
+ADDED from [com.google.firebase:firebase-database:20.3.0] C:\Users\fortu\caches\transforms-3\8ee02e975cad74e108861bce6402d81b\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:29:13-31:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:20.3.0] C:\Users\fortu\caches\transforms-3\8ee02e975cad74e108861bce6402d81b\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:31:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:20.3.0] C:\Users\fortu\caches\transforms-3\8ee02e975cad74e108861bce6402d81b\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:30:17-120
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:20.3.0] C:\Users\fortu\caches\transforms-3\8ee02e975cad74e108861bce6402d81b\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:20.3.0] C:\Users\fortu\caches\transforms-3\8ee02e975cad74e108861bce6402d81b\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:20.3.0] C:\Users\fortu\caches\transforms-3\8ee02e975cad74e108861bce6402d81b\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:33:17-109
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:29:9-46:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:31:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:33:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:32:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:34:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:30:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:35:13-45:29
+action#android.intent.action.VIEW
+ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:36:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:38:17-76
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:38:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:39:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:39:27-75
+data
+ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:41:17-44:51
+	android:path
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:43:21-37
+	android:host
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:42:21-49
+	android:scheme
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:44:21-48
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:47:9-64:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:49:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:51:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:50:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:52:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:48:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:53:13-63:29
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:69:13-71:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:71:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\fortu\caches\transforms-3\a3a56a67c6784d3f7228a772ce91f64f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:70:17-109
+service#com.google.firebase.sessions.SessionLifecycleService
+ADDED from [com.google.firebase:firebase-sessions:1.2.0] C:\Users\fortu\caches\transforms-3\aeb19ee1e8da160a7118c008487ca5cc\transformed\jetified-firebase-sessions-1.2.0\AndroidManifest.xml:22:9-25:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-sessions:1.2.0] C:\Users\fortu\caches\transforms-3\aeb19ee1e8da160a7118c008487ca5cc\transformed\jetified-firebase-sessions-1.2.0\AndroidManifest.xml:24:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-sessions:1.2.0] C:\Users\fortu\caches\transforms-3\aeb19ee1e8da160a7118c008487ca5cc\transformed\jetified-firebase-sessions-1.2.0\AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-sessions:1.2.0] C:\Users\fortu\caches\transforms-3\aeb19ee1e8da160a7118c008487ca5cc\transformed\jetified-firebase-sessions-1.2.0\AndroidManifest.xml:23:13-80
+meta-data#com.google.firebase.components:com.google.firebase.sessions.FirebaseSessionsRegistrar
+ADDED from [com.google.firebase:firebase-sessions:1.2.0] C:\Users\fortu\caches\transforms-3\aeb19ee1e8da160a7118c008487ca5cc\transformed\jetified-firebase-sessions-1.2.0\AndroidManifest.xml:29:13-31:85
+	android:value
+		ADDED from [com.google.firebase:firebase-sessions:1.2.0] C:\Users\fortu\caches\transforms-3\aeb19ee1e8da160a7118c008487ca5cc\transformed\jetified-firebase-sessions-1.2.0\AndroidManifest.xml:31:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-sessions:1.2.0] C:\Users\fortu\caches\transforms-3\aeb19ee1e8da160a7118c008487ca5cc\transformed\jetified-firebase-sessions-1.2.0\AndroidManifest.xml:30:17-117
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\fortu\caches\transforms-3\79cdcb40a39d7e1c402283af9cf001eb\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:21.5.0] C:\Users\fortu\caches\transforms-3\0497a67f99ac56fb0e79703eb4bbbcae\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:21.5.0] C:\Users\fortu\caches\transforms-3\0497a67f99ac56fb0e79703eb4bbbcae\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.5.0] C:\Users\fortu\caches\transforms-3\ecca54ba2aa9837fa5ce0694f9754403\transformed\jetified-play-services-measurement-impl-21.5.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.5.0] C:\Users\fortu\caches\transforms-3\ecca54ba2aa9837fa5ce0694f9754403\transformed\jetified-play-services-measurement-impl-21.5.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.5.0] C:\Users\fortu\caches\transforms-3\c817e3ecb12f371cd6781442d5f7caeb\transformed\jetified-play-services-measurement-sdk-api-21.5.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.5.0] C:\Users\fortu\caches\transforms-3\c817e3ecb12f371cd6781442d5f7caeb\transformed\jetified-play-services-measurement-sdk-api-21.5.0\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\fortu\caches\transforms-3\79cdcb40a39d7e1c402283af9cf001eb\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:24:22-65
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\fortu\caches\transforms-3\79cdcb40a39d7e1c402283af9cf001eb\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.5.0] C:\Users\fortu\caches\transforms-3\ecca54ba2aa9837fa5ce0694f9754403\transformed\jetified-play-services-measurement-impl-21.5.0\AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.5.0] C:\Users\fortu\caches\transforms-3\ecca54ba2aa9837fa5ce0694f9754403\transformed\jetified-play-services-measurement-impl-21.5.0\AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\fortu\caches\transforms-3\f8f76238f862ee3d729154e560757e2b\transformed\jetified-play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\fortu\caches\transforms-3\f8f76238f862ee3d729154e560757e2b\transformed\jetified-play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.5.0] C:\Users\fortu\caches\transforms-3\c817e3ecb12f371cd6781442d5f7caeb\transformed\jetified-play-services-measurement-sdk-api-21.5.0\AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.5.0] C:\Users\fortu\caches\transforms-3\c817e3ecb12f371cd6781442d5f7caeb\transformed\jetified-play-services-measurement-sdk-api-21.5.0\AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\fortu\caches\transforms-3\79cdcb40a39d7e1c402283af9cf001eb\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:25:22-76
+uses-permission#android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+ADDED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\fortu\caches\transforms-3\79cdcb40a39d7e1c402283af9cf001eb\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:26:5-88
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.5.0] C:\Users\fortu\caches\transforms-3\c817e3ecb12f371cd6781442d5f7caeb\transformed\jetified-play-services-measurement-sdk-api-21.5.0\AndroidManifest.xml:27:5-88
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.5.0] C:\Users\fortu\caches\transforms-3\c817e3ecb12f371cd6781442d5f7caeb\transformed\jetified-play-services-measurement-sdk-api-21.5.0\AndroidManifest.xml:27:5-88
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\fortu\caches\transforms-3\79cdcb40a39d7e1c402283af9cf001eb\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:26:22-85
+uses-permission#android.permission.ACCESS_ADSERVICES_AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\fortu\caches\transforms-3\79cdcb40a39d7e1c402283af9cf001eb\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:27:5-82
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.5.0] C:\Users\fortu\caches\transforms-3\c817e3ecb12f371cd6781442d5f7caeb\transformed\jetified-play-services-measurement-sdk-api-21.5.0\AndroidManifest.xml:28:5-82
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.5.0] C:\Users\fortu\caches\transforms-3\c817e3ecb12f371cd6781442d5f7caeb\transformed\jetified-play-services-measurement-sdk-api-21.5.0\AndroidManifest.xml:28:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\fortu\caches\transforms-3\79cdcb40a39d7e1c402283af9cf001eb\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:27:22-79
+property
+ADDED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\fortu\caches\transforms-3\79cdcb40a39d7e1c402283af9cf001eb\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:30:9-32:61
+	android:resource
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\fortu\caches\transforms-3\79cdcb40a39d7e1c402283af9cf001eb\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:32:13-58
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\fortu\caches\transforms-3\79cdcb40a39d7e1c402283af9cf001eb\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:31:13-65
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\fortu\caches\transforms-3\79cdcb40a39d7e1c402283af9cf001eb\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:37:13-39:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\fortu\caches\transforms-3\79cdcb40a39d7e1c402283af9cf001eb\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:39:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\fortu\caches\transforms-3\79cdcb40a39d7e1c402283af9cf001eb\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:38:17-139
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\fortu\caches\transforms-3\f408a8b3274e781cd23640ddea2bb53d\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\fortu\caches\transforms-3\f408a8b3274e781cd23640ddea2bb53d\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\fortu\caches\transforms-3\f408a8b3274e781cd23640ddea2bb53d\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:16:17-130
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\fortu\caches\transforms-3\f408a8b3274e781cd23640ddea2bb53d\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\fortu\caches\transforms-3\f408a8b3274e781cd23640ddea2bb53d\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\fortu\caches\transforms-3\f408a8b3274e781cd23640ddea2bb53d\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:19:17-127
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\fortu\caches\transforms-3\d857893510eb3ce1d1e545777fe121a1\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\fortu\caches\transforms-3\d857893510eb3ce1d1e545777fe121a1\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\fortu\caches\transforms-3\d857893510eb3ce1d1e545777fe121a1\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:13:17-116
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\fortu\caches\transforms-3\322e7911774891daf99882ff68ef01a5\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:23:9-28:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\fortu\caches\transforms-3\322e7911774891daf99882ff68ef01a5\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:25:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\fortu\caches\transforms-3\322e7911774891daf99882ff68ef01a5\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:27:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\fortu\caches\transforms-3\322e7911774891daf99882ff68ef01a5\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:26:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\fortu\caches\transforms-3\322e7911774891daf99882ff68ef01a5\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\fortu\caches\transforms-3\322e7911774891daf99882ff68ef01a5\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:24:13-77
+meta-data#com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\fortu\caches\transforms-3\322e7911774891daf99882ff68ef01a5\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:35:13-37:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\fortu\caches\transforms-3\322e7911774891daf99882ff68ef01a5\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:37:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\fortu\caches\transforms-3\322e7911774891daf99882ff68ef01a5\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:36:17-109
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:21.5.0] C:\Users\fortu\caches\transforms-3\0497a67f99ac56fb0e79703eb4bbbcae\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.5.0] C:\Users\fortu\caches\transforms-3\ecca54ba2aa9837fa5ce0694f9754403\transformed\jetified-play-services-measurement-impl-21.5.0\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.5.0] C:\Users\fortu\caches\transforms-3\ecca54ba2aa9837fa5ce0694f9754403\transformed\jetified-play-services-measurement-impl-21.5.0\AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.5.0] C:\Users\fortu\caches\transforms-3\0497a67f99ac56fb0e79703eb4bbbcae\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:21.5.0] C:\Users\fortu\caches\transforms-3\0497a67f99ac56fb0e79703eb4bbbcae\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.5.0] C:\Users\fortu\caches\transforms-3\0497a67f99ac56fb0e79703eb4bbbcae\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.5.0] C:\Users\fortu\caches\transforms-3\0497a67f99ac56fb0e79703eb4bbbcae\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.5.0] C:\Users\fortu\caches\transforms-3\0497a67f99ac56fb0e79703eb4bbbcae\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:21.5.0] C:\Users\fortu\caches\transforms-3\0497a67f99ac56fb0e79703eb4bbbcae\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.5.0] C:\Users\fortu\caches\transforms-3\0497a67f99ac56fb0e79703eb4bbbcae\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.5.0] C:\Users\fortu\caches\transforms-3\0497a67f99ac56fb0e79703eb4bbbcae\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.5.0] C:\Users\fortu\caches\transforms-3\0497a67f99ac56fb0e79703eb4bbbcae\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:21.5.0] C:\Users\fortu\caches\transforms-3\0497a67f99ac56fb0e79703eb4bbbcae\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.5.0] C:\Users\fortu\caches\transforms-3\0497a67f99ac56fb0e79703eb4bbbcae\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.5.0] C:\Users\fortu\caches\transforms-3\0497a67f99ac56fb0e79703eb4bbbcae\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:21.5.0] C:\Users\fortu\caches\transforms-3\0497a67f99ac56fb0e79703eb4bbbcae\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.5.0] C:\Users\fortu\caches\transforms-3\0497a67f99ac56fb0e79703eb4bbbcae\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:40:13-87
+uses-library#android.ext.adservices
+ADDED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\fortu\caches\transforms-3\693aca8fee0d62c0589bb5215552a0a2\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:23:9-25:40
+	android:required
+		ADDED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\fortu\caches\transforms-3\693aca8fee0d62c0589bb5215552a0a2\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\fortu\caches\transforms-3\693aca8fee0d62c0589bb5215552a0a2\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:24:13-50
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\fortu\caches\transforms-3\0818b56498c05772ce60afecdac91b6a\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\fortu\caches\transforms-3\0818b56498c05772ce60afecdac91b6a\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\fortu\caches\transforms-3\0818b56498c05772ce60afecdac91b6a\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\fortu\caches\transforms-3\0818b56498c05772ce60afecdac91b6a\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\fortu\caches\transforms-3\6c1332faead9c2cf3ed544ba3be0bf62\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\fortu\caches\transforms-3\6c1332faead9c2cf3ed544ba3be0bf62\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\fortu\caches\transforms-3\6c1332faead9c2cf3ed544ba3be0bf62\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\fortu\caches\transforms-3\f58ff2112c5f1664b70001ad2e12a684\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\fortu\caches\transforms-3\94ec4a03db3e75ed0c8e544863d3a455\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\fortu\caches\transforms-3\94ec4a03db3e75ed0c8e544863d3a455\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\fortu\caches\transforms-3\f846e8830df8a32902176efd85c449e4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\fortu\caches\transforms-3\f846e8830df8a32902176efd85c449e4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\fortu\caches\transforms-3\6945662b77f13fce7785ac444c0ad8fa\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\fortu\caches\transforms-3\6945662b77f13fce7785ac444c0ad8fa\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\fortu\caches\transforms-3\f58ff2112c5f1664b70001ad2e12a684\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\fortu\caches\transforms-3\f58ff2112c5f1664b70001ad2e12a684\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\fortu\caches\transforms-3\f58ff2112c5f1664b70001ad2e12a684\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\fortu\caches\transforms-3\f58ff2112c5f1664b70001ad2e12a684\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\fortu\caches\transforms-3\f58ff2112c5f1664b70001ad2e12a684\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\fortu\caches\transforms-3\f58ff2112c5f1664b70001ad2e12a684\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\fortu\caches\transforms-3\f58ff2112c5f1664b70001ad2e12a684\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\fortu\caches\transforms-3\65c34b469c8b6c887310c558ac7d04ef\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] C:\Users\fortu\caches\transforms-3\65c34b469c8b6c887310c558ac7d04ef\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\fortu\caches\transforms-3\65c34b469c8b6c887310c558ac7d04ef\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+permission#com.example.tap2tell.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\fortu\caches\transforms-3\65c34b469c8b6c887310c558ac7d04ef\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] C:\Users\fortu\caches\transforms-3\65c34b469c8b6c887310c558ac7d04ef\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\fortu\caches\transforms-3\65c34b469c8b6c887310c558ac7d04ef\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\fortu\caches\transforms-3\65c34b469c8b6c887310c558ac7d04ef\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\fortu\caches\transforms-3\65c34b469c8b6c887310c558ac7d04ef\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+uses-permission#com.example.tap2tell.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\fortu\caches\transforms-3\65c34b469c8b6c887310c558ac7d04ef\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\fortu\caches\transforms-3\65c34b469c8b6c887310c558ac7d04ef\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\fortu\caches\transforms-3\94ec4a03db3e75ed0c8e544863d3a455\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\fortu\caches\transforms-3\94ec4a03db3e75ed0c8e544863d3a455\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\fortu\caches\transforms-3\94ec4a03db3e75ed0c8e544863d3a455\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+meta-data#com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar
+ADDED from [com.google.firebase:firebase-datatransport:18.1.8] C:\Users\fortu\caches\transforms-3\b3fdd3acfd01a511e24ceaa400180773\transformed\jetified-firebase-datatransport-18.1.8\AndroidManifest.xml:27:13-29:85
+	android:value
+		ADDED from [com.google.firebase:firebase-datatransport:18.1.8] C:\Users\fortu\caches\transforms-3\b3fdd3acfd01a511e24ceaa400180773\transformed\jetified-firebase-datatransport-18.1.8\AndroidManifest.xml:29:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-datatransport:18.1.8] C:\Users\fortu\caches\transforms-3\b3fdd3acfd01a511e24ceaa400180773\transformed\jetified-firebase-datatransport-18.1.8\AndroidManifest.xml:28:17-115
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\fortu\caches\transforms-3\33b240c181c7da5e3df44bf0d03181fa\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\fortu\caches\transforms-3\165a56120583e83f4941933b63ddccf7\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\fortu\caches\transforms-3\165a56120583e83f4941933b63ddccf7\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\fortu\caches\transforms-3\33b240c181c7da5e3df44bf0d03181fa\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\fortu\caches\transforms-3\33b240c181c7da5e3df44bf0d03181fa\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:29:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\fortu\caches\transforms-3\33b240c181c7da5e3df44bf0d03181fa\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:31:13-33:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\fortu\caches\transforms-3\33b240c181c7da5e3df44bf0d03181fa\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:33:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\fortu\caches\transforms-3\33b240c181c7da5e3df44bf0d03181fa\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:32:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\fortu\caches\transforms-3\165a56120583e83f4941933b63ddccf7\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\fortu\caches\transforms-3\165a56120583e83f4941933b63ddccf7\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\fortu\caches\transforms-3\165a56120583e83f4941933b63ddccf7\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\fortu\caches\transforms-3\165a56120583e83f4941933b63ddccf7\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\fortu\caches\transforms-3\165a56120583e83f4941933b63ddccf7\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\fortu\caches\transforms-3\165a56120583e83f4941933b63ddccf7\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\fortu\caches\transforms-3\165a56120583e83f4941933b63ddccf7\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:33:13-132
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\fortu\caches\transforms-3\f846e8830df8a32902176efd85c449e4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\fortu\caches\transforms-3\f846e8830df8a32902176efd85c449e4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\fortu\caches\transforms-3\f846e8830df8a32902176efd85c449e4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\fortu\caches\transforms-3\f846e8830df8a32902176efd85c449e4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\fortu\caches\transforms-3\f846e8830df8a32902176efd85c449e4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\fortu\caches\transforms-3\f846e8830df8a32902176efd85c449e4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\fortu\caches\transforms-3\f846e8830df8a32902176efd85c449e4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\fortu\caches\transforms-3\f846e8830df8a32902176efd85c449e4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\fortu\caches\transforms-3\f846e8830df8a32902176efd85c449e4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
 intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/b833a8aa1f9fdeef8fd14069d153906a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\fortu\caches\transforms-3\f846e8830df8a32902176efd85c449e4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
 action#androidx.profileinstaller.action.INSTALL_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/b833a8aa1f9fdeef8fd14069d153906a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\fortu\caches\transforms-3\f846e8830df8a32902176efd85c449e4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/b833a8aa1f9fdeef8fd14069d153906a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\fortu\caches\transforms-3\f846e8830df8a32902176efd85c449e4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
 intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/b833a8aa1f9fdeef8fd14069d153906a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\fortu\caches\transforms-3\f846e8830df8a32902176efd85c449e4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
 action#androidx.profileinstaller.action.SKIP_FILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/b833a8aa1f9fdeef8fd14069d153906a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\fortu\caches\transforms-3\f846e8830df8a32902176efd85c449e4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/b833a8aa1f9fdeef8fd14069d153906a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\fortu\caches\transforms-3\f846e8830df8a32902176efd85c449e4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
 intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/b833a8aa1f9fdeef8fd14069d153906a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\fortu\caches\transforms-3\f846e8830df8a32902176efd85c449e4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
 action#androidx.profileinstaller.action.SAVE_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/b833a8aa1f9fdeef8fd14069d153906a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\fortu\caches\transforms-3\f846e8830df8a32902176efd85c449e4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/b833a8aa1f9fdeef8fd14069d153906a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\fortu\caches\transforms-3\f846e8830df8a32902176efd85c449e4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
 intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/b833a8aa1f9fdeef8fd14069d153906a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\fortu\caches\transforms-3\f846e8830df8a32902176efd85c449e4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
 action#androidx.profileinstaller.action.BENCHMARK_OPERATION
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/b833a8aa1f9fdeef8fd14069d153906a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\fortu\caches\transforms-3\f846e8830df8a32902176efd85c449e4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/najae/.gradle/caches/9.0-milestone-1/transforms/b833a8aa1f9fdeef8fd14069d153906a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\fortu\caches\transforms-3\f846e8830df8a32902176efd85c449e4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
